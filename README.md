@@ -87,6 +87,30 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] WaveNet
 - [ ] tacotron
 
+### Stochastic gradient descent techniques
+- [On large batch training of NN](https://arxiv.org/abs/1609.04836)
+
+### Layer Normalizations
+- Batch Norm
+- Group Norm
+- Instance Norm
+- **Switchable Normalization** (2019) [[paper](https://arxiv.org/abs/1806.10779)]
+    - Luo et al. "Differentiable Learning-to-Normalize via Switchable Normalization"
+- Weight Standardization : https://arxiv.org/abs/1903.10520
+
+### Dropouts
+### Zero-shot learning
+### Transfer learning
+### Representation learning
+- Neural Discrete Representation Learning : https://arxiv.org/pdf/1711.00937.pdf
+
+### Variational Autoencoders (VAE)
+### Neural architecture search and AutoML
+- Efficient Neural Architecture Search by Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf
+- AdaNet
+- **Randomly Wired Neural Nets** (2019) [[paper](https://arxiv.org/abs/1904.01569)]
+    - Xie et al. "Exploring Randomly Wired Neural Networks for Image Recognition" (Facebook AI Research)
+
 ### Object detection
 - RCNN: https://arxiv.org/abs/1311.2524
 - Fast-RCNN: https://arxiv.org/abs/1504.08083
@@ -99,16 +123,18 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] Seq2Seq [36] Sutskever, Ilya, Oriol Vinyals, and Quoc V. Le. "Sequence to sequence learning with neural networks." Advances in neural information processing systems. 2014. [pdf] (Outstanding Work) ⭐️⭐️⭐️⭐️⭐️
 
 ### Neural Turing Machine
-- [ ] [39] Graves, Alex, Greg Wayne, and Ivo Danihelka. "Neural turing machines." arXiv preprint arXiv:1410.5401 (2014). [pdf] (Basic Prototype of Future Computer) ⭐️⭐️⭐️⭐️⭐️
-- [ ] [43] Vinyals, Oriol, Meire Fortunato, and Navdeep Jaitly. "Pointer networks." Advances in Neural Information Processing Systems. 2015. [pdf] ⭐️⭐️⭐️
+- [ ] **Neural Turing Machines** (2014) [[paper](https://arxiv.org/abs/1410.5401)]
+    - Graves et al., "Neural turing machines."
+- [ ] **Pointer Networks** (2015) [[paper]](https://arxiv.org/abs/1506.03134)]
+    - Vinyals et al., "Pointer networks."
 
 ### Attention
-- [ ] **NMT (Neural Machine Translation)** (2014) [paper](https://arxiv.org/abs/1409.0473)
+- [ ] **NMT (Neural Machine Translation)** (2014) [[paper](https://arxiv.org/abs/1409.0473)]
     - Bahdanau et al, "Neural Machine Translation by Jointly Learning to Align and Translate"
-- [ ] [read] Lilian Weng, "Attention? Attention!" (2018) [blog_post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
+- [ ] **Attention is all you need** (2017) [[paper](https://arxiv.org/abs/1706.03762)]
+     -  Vaswani et al. "Attention is all you need"    
+- [ ] [read] Lilian Weng - **"Attention? Attention!"** (2018) [[blog_post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)]
     - A nice explanation of attention mechanism and its concepts.
-- [ ] Attention is all you need (2017) [paper](https://arxiv.org/abs/1706.03762)
-     -  Vaswani et al. "Attention is all you need"
 
 ### Advanced RNNs
 - [ ] Unitary evolution RNNs : https://arxiv.org/abs/1511.06464
@@ -118,7 +144,12 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] DilatedRNNs : https://arxiv.org/abs/1710.02224
 
 ### Neural Processes
-- [ ] [Attentive Neural Processes](https://arxiv.org/abs/1901.05761)
+- [ ] **Neural Processes** (2018) [[paper](https://arxiv.org/abs/1807.01622)]
+    - Garnelo et al. "Neural Processes"
+- [ ] **Attentive Neural Processes** (2019) [[paper](https://arxiv.org/abs/1901.05761)]
+    - Kim et al. "Attentive Neural Processes"
+- [ ] **A Visual Exploration of Gaussian Processes** (2019) [[Distill.pub](https://distill.pub/2019/visual-exploration-gaussian-processes/)]
+    - Not a neural process, but gives very nice intuition about Gaussian Processes. Good Read.
 
 ### Self-supervised learning
 
