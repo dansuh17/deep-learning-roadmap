@@ -1,4 +1,4 @@
-# deeplearning-roadmap
+# Deep Learning Roadmap
 My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap).
 
 **There are some customized differences:**
