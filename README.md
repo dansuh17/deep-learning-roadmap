@@ -6,8 +6,6 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - customized for my own targeted roadmap
 - updated for 2019
 
-# Deep Learning Roadmap
-
 ### Introductory Courses
 - [ ] [Deeplearning.ai courses by Andrew Ng](https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w)
 - [ ] [Fast.ai](https://www.fast.ai/)
