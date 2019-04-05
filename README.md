@@ -3,14 +3,16 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 **There are some customized differences:**
 - not only academic papers but also blog posts, online courses, and other references are included
-- customized for my own targeted roadmap
-- updated for 2019
+- customized for my own targeted roadmap - may not include RL, NLP, etc.
+- updated for 2019 SOTA
 
 ### Introductory Courses
-- [ ] [Deeplearning.ai courses by Andrew Ng](https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w)
-- [ ] [Fast.ai](https://www.fast.ai/)
-- [ ] [KOREAN] [모두의 딥러닝 - 김성훈](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm)
-- [ ] [KOREAN] [PytorchZeroToAll - 김성훈](https://www.youtube.com/watch?v=SKq-pmkekTk&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m)
+- [Deeplearning.ai courses by Andrew Ng](https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w)
+- [Fast.ai](https://www.fast.ai/)
+- [Dive Into Deep Learning](http://d2l.ai/)
+- [Stanford's CS231n Class Notes](http://cs231n.github.io/)
+- [KOREAN] [모두의 딥러닝 - 김성훈](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm)
+- [KOREAN] [PytorchZeroToAll - 김성훈](https://www.youtube.com/watch?v=SKq-pmkekTk&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m)
   
 ### Basic CNN Architectures
 - [x] **AlexNet** (2012) [paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
