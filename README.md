@@ -18,7 +18,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [x] **ZFNet** (2013) [paper](https://arxiv.org/abs/1311.2901)
     - Zeiler et al. "Visualizing and Understanding Convolutional Networks"
 - [x] **VGG**: (2014)
-    - Simonyan et al. "Very Deep Convolutional Networks for Large-Scale Image Recognition" (2014) [Google DeepMind & Oxford] [[paper](https://arxiv.org/abs/1409.1556)]
+    - Simonyan et al. "Very Deep Convolutional Networks for Large-Scale Image Recognition" (2014) [Google DeepMind & Oxford's Visual Geometry Group (VGG)] [[paper](https://arxiv.org/abs/1409.1556)]
     - _VGG-16_: Zhang et al. "Accelerating Very Deep Convolutional Networks for Classification and Detection" [[paper](https://arxiv.org/abs/1505.06798?context=cs)]
 - [x] **ResNet**: https://arxiv.org/abs/1512.03385
 - [x] [read] **GoogLeNet**: https://arxiv.org/abs/1409.4842
