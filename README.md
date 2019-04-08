@@ -11,15 +11,15 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [Fast.ai](https://www.fast.ai/)
 - [Dive Into Deep Learning](http://d2l.ai/)
 - [Stanford's CS231n Class Notes](http://cs231n.github.io/)
-- [KOREAN] [모두의 딥러닝 - 김성훈](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm)
-- [KOREAN] [PytorchZeroToAll - 김성훈](https://www.youtube.com/watch?v=SKq-pmkekTk&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m)
   
 ### Basic CNN Architectures
 - [x] **AlexNet** (2012) [paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
     - Alex Krizhevsky et al. "ImageNet Classification with Deep Convolutional Neural Networks"
 - [x] **ZFNet** (2013) [paper](https://arxiv.org/abs/1311.2901)
     - Zeiler et al. "Visualizing and Understanding Convolutional Networks"
-- [x] **VGG**: https://arxiv.org/abs/1505.06798 https://arxiv.org/pdf/1409.1556.pdf
+- [x] **VGG**: (2014)
+    - Simonyan et al. "Very Deep Convolutional Networks for Large-Scale Image Recognition" (2014) [Google DeepMind & Oxford] [[paper](https://arxiv.org/abs/1409.1556)]
+    - _VGG-16_: Zhang et al. "Accelerating Very Deep Convolutional Networks for Classification and Detection" [[paper](https://arxiv.org/abs/1505.06798?context=cs)]
 - [x] **ResNet**: https://arxiv.org/abs/1512.03385
 - [x] [read] **GoogLeNet**: https://arxiv.org/abs/1409.4842
 - [x] **Inception**: https://arxiv.org/abs/1512.00567
@@ -27,15 +27,6 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [x] **MobileNet**: https://arxiv.org/abs/1704.04861
 - [ ] **DenseNet** (2018) [paper](https://arxiv.org/abs/1608.06993)
 
-### Semantic Segmentation [mostly read]
-- [ ] FCN: https://arxiv.org/abs/1411.4038
-- [ ] SegNet: https://arxiv.org/abs/1511.00561
-- [ ] UNet: https://arxiv.org/abs/1505.04597
-- [ ] PSPNet: https://arxiv.org/abs/1612.01105
-- [ ] DeepLab: https://arxiv.org/abs/1606.00915
-- [ ] ICNet: https://arxiv.org/abs/1704.08545
-- [ ] ENet: https://arxiv.org/abs/1606.02147
-- [Nice survey](https://github.com/hoya012/deep_learning_object_detection)
 
 ### Generative adversarial networks
 - [x] GAN (2014.6) : https://arxiv.org/abs/1406.2661
@@ -99,6 +90,11 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - Weight Standardization : https://arxiv.org/abs/1903.10520
 
 ### Dropouts
+- **Dropout** (2014) [[paper](http://jmlr.org/papers/v15/srivastava14a.html)]
+    - Srivastava et al. "Dropout: A Simple Way to Prevent Neural Networks from Overfitting"
+- **Inverted Dropouts** [[notes on CS231n](http://cs231n.github.io/neural-networks-2/#reg)]
+    - Multiplying the inverted _keep_prob_ value on training so that values during inference (or testing) is consistent.
+
 ### Zero-shot learning
 ### Transfer learning
 ### Representation learning
@@ -118,6 +114,16 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - SSD: https://arxiv.org/abs/1512.02325
 - [ ] YOLO: https://arxiv.org/abs/1506.02640
 - YOLO9000: https://arxiv.org/abs/1612.08242
+
+### Semantic Segmentation
+- [ ] FCN: https://arxiv.org/abs/1411.4038
+- [ ] SegNet: https://arxiv.org/abs/1511.00561
+- [ ] UNet: https://arxiv.org/abs/1505.04597
+- [ ] PSPNet: https://arxiv.org/abs/1612.01105
+- [ ] DeepLab: https://arxiv.org/abs/1606.00915
+- [ ] ICNet: https://arxiv.org/abs/1704.08545
+- [ ] ENet: https://arxiv.org/abs/1606.02147
+- [Nice survey](https://github.com/hoya012/deep_learning_object_detection)
 
 ### Sequential Model
 - [ ] Seq2Seq [36] Sutskever, Ilya, Oriol Vinyals, and Quoc V. Le. "Sequence to sequence learning with neural networks." Advances in neural information processing systems. 2014. [pdf] (Outstanding Work) ⭐️⭐️⭐️⭐️⭐️
