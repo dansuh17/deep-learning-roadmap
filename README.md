@@ -17,24 +17,24 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Alex Krizhevsky et al. "ImageNet Classification with Deep Convolutional Neural Networks"
 - [x] **ZFNet** (2013) [[paper](https://arxiv.org/abs/1311.2901)]
     - Zeiler et al. "Visualizing and Understanding Convolutional Networks"
-- [x] **VGG**: (2014)
+- [x] **VGG** (2014)
     - Simonyan et al. "Very Deep Convolutional Networks for Large-Scale Image Recognition" (2014) [Google DeepMind & Oxford's Visual Geometry Group (VGG)] [[paper](https://arxiv.org/abs/1409.1556)]
     - _VGG-16_: Zhang et al. "Accelerating Very Deep Convolutional Networks for Classification and Detection" [[paper](https://arxiv.org/abs/1505.06798?context=cs)]
-- [x] **GoogLeNet**, a.k.a **Inception v.1** [[paper](https://arxiv.org/abs/1409.4842)]
-    - Szegedy et al. "Going Deeper with Convolutions" (2014)
+- [x] **GoogLeNet**, a.k.a **Inception v.1** (2014) [[paper](https://arxiv.org/abs/1409.4842)]
+    - Szegedy et al. "Going Deeper with Convolutions" [Google]
     - Original [LeNet page](http://yann.lecun.com/exdb/lenet/) from Yann LeCun's homepage.
-    - [x] **Inception v.2 and v.3**: Szegedy et al. "Rethinking the Inception Architecture for Computer Vision" (2015) [[paper](https://arxiv.org/abs/1512.00567)]
-    - [x] **Inception v.4 and InceptionResNet** Szegedy et al. "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning" (2016) [[paper](https://arxiv.org/abs/1602.07261)]
+    - [x] **Inception v.2 and v.3** (2015) Szegedy et al. "Rethinking the Inception Architecture for Computer Vision" [[paper](https://arxiv.org/abs/1512.00567)]
+    - [x] **Inception v.4 and InceptionResNet** (2016) Szegedy et al. "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning" [[paper](https://arxiv.org/abs/1602.07261)]
     - "A Simple Guide to the Versions of the Inception Network" [[blogpost](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)]
-- [x] **ResNet**: [[paper](https://arxiv.org/abs/1512.03385)]
-    - He et al. "Deep Residual Learning for Image Recognition" (2015)
-- [x] **Xception**: [[paper](https://arxiv.org/abs/1610.02357)]
-    - Chollet, Francois - "Xception: Deep Learning with Depthwise Separable Convolutions" (2016)
-- [x] **MobileNet**: [[paper](https://arxiv.org/abs/1704.04861)]
-    - Howard et al. "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications" (2016)
+- [x] **ResNet** (2015) [[paper](https://arxiv.org/abs/1512.03385)]
+    - He et al. "Deep Residual Learning for Image Recognition"
+- [x] **Xception** (2016) [[paper](https://arxiv.org/abs/1610.02357)]
+    - Chollet, Francois - "Xception: Deep Learning with Depthwise Separable Convolutions"
+- [x] **MobileNet** (2016) [[paper](https://arxiv.org/abs/1704.04861)]
+    - Howard et al. "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
     - A nice paper about reducing CNN parameter sizes while maintaining performance.
-- [ ] **DenseNet** [[paper](https://arxiv.org/abs/1608.06993)]
-    - Huang et al. "Densely Connected Convolutional Networks" (2018)
+- [ ] **DenseNet** (2018) [[paper](https://arxiv.org/abs/1608.06993)]
+    - Huang et al. "Densely Connected Convolutional Networks"
 
 
 ### Generative adversarial networks
@@ -54,11 +54,9 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] DiscoGAN (2017.5) : https://arxiv.org/abs/1703.05192
 - [ ] DRAGAN (2017.5) : https://arxiv.org/abs/1705.07215
 - [ ] ProGAN (2017.10) : https://arxiv.org/abs/1710.10196
-- [ ] SAGAN (2018.5)  : https://arxiv.org/abs/1805.08318
-- [ ] BigGAN (2018) : https://arxiv.org/abs/1809.11096
 
 
-### advanced GANs
+### Advanced GANs
 - [ ] Augmented CycleGAN
 - [ ] Joint GAN
 - [ ] Semi-Amortized Variational Autoencoders
@@ -69,6 +67,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] Semantic Image Synthesis with Spatially-Adaptive Normalization
  https://arxiv.org/abs/1903.07291
 - [ ] Self-supervised GAN https://arxiv.org/abs/1811.11212
+- [ ] SAGAN (2018.5)  : https://arxiv.org/abs/1805.08318
+- [ ] BigGAN (2018) : https://arxiv.org/abs/1809.11096
 - [ ] [Which Training Methods for GAN do actually converge? (2018.7)](https://arxiv.org/abs/1801.04406)
 - [ ] [Improving Generalization and Stability for GANs (2019)](https://openreview.net/pdf?id=ByxPYjC5KQ&fbclid=IwAR2_8Qft8cIX3y-Cki-4JzWMeoxm91yUq1ELA3N7eJBMTedPuUz8H6vvqMo)
 
@@ -105,24 +105,21 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Multiplying the inverted _keep_prob_ value on training so that values during inference (or testing) is consistent.
 
 ### Zero-shot learning
+
 ### Transfer learning
+
 ### Representation learning
 - Neural Discrete Representation Learning : https://arxiv.org/pdf/1711.00937.pdf
 
 ### Variational Autoencoders (VAE)
-### Neural architecture search and AutoML
-- Efficient Neural Architecture Search by Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf
-- AdaNet
-- **Randomly Wired Neural Nets** (2019) [[paper](https://arxiv.org/abs/1904.01569)]
-    - Xie et al. "Exploring Randomly Wired Neural Networks for Image Recognition" (Facebook AI Research)
 
 ### Object detection
-- RCNN: https://arxiv.org/abs/1311.2524
-- Fast-RCNN: https://arxiv.org/abs/1504.08083
-- Faster-RCNN: https://arxiv.org/abs/1506.01497
-- SSD: https://arxiv.org/abs/1512.02325
+- [ ] RCNN: https://arxiv.org/abs/1311.2524
+- [ ] Fast-RCNN: https://arxiv.org/abs/1504.08083
+- [ ] Faster-RCNN: https://arxiv.org/abs/1506.01497
+- [ ] SSD: https://arxiv.org/abs/1512.02325
 - [ ] YOLO: https://arxiv.org/abs/1506.02640
-- YOLO9000: https://arxiv.org/abs/1612.08242
+- [ ] YOLO9000: https://arxiv.org/abs/1612.08242
 
 ### Semantic Segmentation
 - [ ] FCN: https://arxiv.org/abs/1411.4038
@@ -158,6 +155,11 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] IndRNN : https://arxiv.org/abs/1803.04831
 - [ ] DilatedRNNs : https://arxiv.org/abs/1710.02224
 
+### Compression
+- **MobileNet** (2016) (see above)
+- [ ] **ShuffleNet** (2017)
+    - Zhang et al. "ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices"
+
 ### Neural Processes
 - [ ] **Neural Processes** (2018) [[paper](https://arxiv.org/abs/1807.01622)]
     - Garnelo et al. "Neural Processes"
@@ -185,6 +187,14 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 ### Interpretability
 - [ ] Visualizing loss landscape of neural nets (2018) https://arxiv.org/abs/1712.09913v3
 
+### Neural architecture search (NAS) and AutoML
+- Efficient Neural Architecture Search by Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf
+- AdaNet
+
+### Randomly Wired Neural Nets
+- [ ] **RandWire** (2019) [[paper](https://arxiv.org/abs/1904.01569)]
+    - Xie et al. "Exploring Randomly Wired Neural Networks for Image Recognition" [Facebook AI Research]
+
 ## DL roadmap reference
 - https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
 - https://github.com/terryum/awesome-deep-learning-papers
@@ -196,6 +206,4 @@ https://www.reddit.com/r/MachineLearning/comments/8vmuet/d_what_deep_learning_pa
 - [Bubeck - Convex Optimization - Algorithms and Complexity](https://arxiv.org/pdf/1405.4980.pdf)
 - [Stanford STATS 385 - Theories of Deep Learning](https://stats385.github.io/)
     - [Lecture Videos](https://www.researchgate.net/project/Theories-of-Deep-Learning?fbclid=IwAR0dwnuswA1jMwIOuydb_a83AM22FfuD6PpAWPiIW-76OCemcRBrVVLKLoM)
-
-## References
-- [ ] CSC 231 notes : http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/
+- CSC 231 notes : http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/
