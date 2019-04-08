@@ -38,23 +38,25 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 
 ### Generative adversarial networks
-- [x] GAN (2014.6) : https://arxiv.org/abs/1406.2661
-- [x] DCGAN: (2015.11): https://arxiv.org/abs/1511.06434
-- [x] Info GAN (2016.6) : https://arxiv.org/pdf/1606.03657.pdf
-- [x] f-GAN (2016.6) : https://arxiv.org/abs/1606.00709
-- [x] Unrolled GAN : (2016.7) : https://arxiv.org/abs/1611.02163
-- [x] ACGAN (2016.10) : https://arxiv.org/abs/1610.09585
-- [x] LSGAN (2016.11) : https://arxiv.org/abs/1611.04076
-- [x] Pix2Pix (2016.11) [read] : https://arxiv.org/abs/1611.07004
-- [x] EBGAN (2016.11) : https://arxiv.org/abs/1609.03126
-- [x] WGAN (2017.4) : https://arxiv.org/abs/1701.07875
-    - [x] WGAN_GP (2017.5) : https://arxiv.org/abs/1704.00028
-- [x] BEGAN (2017.5) : https://arxiv.org/abs/1703.10717
-- [ ] CycleGAN (2017.5) : https://arxiv.org/abs/1703.10593
-- [ ] DiscoGAN (2017.5) : https://arxiv.org/abs/1703.05192
-- [ ] DRAGAN (2017.5) : https://arxiv.org/abs/1705.07215
-- [ ] ProGAN (2017.10) : https://arxiv.org/abs/1710.10196
-
+- [x] **GAN** (2014.6) [[paper](https://arxiv.org/abs/1406.2661)]
+- [x] **DCGAN** (2015.11) [[paper](https://arxiv.org/abs/1511.06434)]
+- [x] **Info GAN** (2016.6) [[paper](https://arxiv.org/pdf/1606.03657.pdf)]
+- [x] **f-GAN** (2016.6) [[paper](https://arxiv.org/abs/1606.00709)]
+- [x] **Unrolled GAN** (2016.7) [[paper](https://arxiv.org/abs/1611.02163)]
+- [x] **ACGAN** (2016.10) [[paper](https://arxiv.org/abs/1610.09585)]
+- [x] **LSGAN** (2016.11) [[paper](https://arxiv.org/abs/1611.04076)]
+- [x] **Pix2Pix** (2016.11) [[paper](https://arxiv.org/abs/1611.07004)]
+- [x] **EBGAN** (2016.11) [[paper](https://arxiv.org/abs/1609.03126)]
+- [x] **WGAN** (2017.4) [[paper](https://arxiv.org/abs/1701.07875)]
+- [x] **WGAN_GP** (2017.5) [[paper](https://arxiv.org/abs/1704.00028)]
+- [x] **BEGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.10717)]
+- [ ] **CycleGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.10593)]
+    - [ ] **DiscoGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.05192)]
+    - DiscoGAN and CycleGAN proposes the EXACT SAME learning techniques for style transfer task using GAN, developed independently at the same time.
+- [ ] **ProGAN** (2017.10) [[paper](https://arxiv.org/abs/1710.10196)]
+- [ ] **BigGAN** (2018) [[paper](https://arxiv.org/abs/1809.11096)]
+- [ ] **GauGAN** (2019.3) [[paper](https://arxiv.org/abs/1903.07291)]
+    - Park et al. "Semantic Image Synthesis with Spatially-Adaptive Normalization"
 
 ### Advanced GANs
 - [ ] Augmented CycleGAN
@@ -67,24 +69,26 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] Semantic Image Synthesis with Spatially-Adaptive Normalization
  https://arxiv.org/abs/1903.07291
 - [ ] Self-supervised GAN https://arxiv.org/abs/1811.11212
-- [ ] SAGAN (2018.5)  : https://arxiv.org/abs/1805.08318
-- [ ] BigGAN (2018) : https://arxiv.org/abs/1809.11096
+- [ ] **DRAGAN** (2017.5) [[paper](https://arxiv.org/abs/1705.07215)]
+- [ ] **SAGAN** (2018.5)  [[paper](https://arxiv.org/abs/1805.08318)]
 - [ ] [Which Training Methods for GAN do actually converge? (2018.7)](https://arxiv.org/abs/1801.04406)
 - [ ] [Improving Generalization and Stability for GANs (2019)](https://openreview.net/pdf?id=ByxPYjC5KQ&fbclid=IwAR2_8Qft8cIX3y-Cki-4JzWMeoxm91yUq1ELA3N7eJBMTedPuUz8H6vvqMo)
 
 ### Autoencoders
-- [ ] Original autoencoder (1986) [paper](https://web.stanford.edu/class/psych209a/ReadingsByDate/02_06/PDPVolIChapter8.pdf)
+- [ ] Original autoencoder (1986) [[paper](https://web.stanford.edu/class/psych209a/ReadingsByDate/02_06/PDPVolIChapter8.pdf)]
     - Rumelhart, Hinton, and Williams, "Learning Internal Representations by Error Propagation"
-- [x] **AutoEncoder** [science](https://www.cs.toronto.edu/~hinton/science.pdf)
+- [x] **AutoEncoder** [[science](https://www.cs.toronto.edu/~hinton/science.pdf)]
     - Hinton et al., "Reducing the Dimensionality of Data with Neural Networks"
-- [ ] Denoising Autoencoders (2008) [paper](http://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf)
+- [ ] **Denoising Autoencoders** (2008) [[paper](http://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf)]
     - Vincent et al. "Extracting and Composing Robust Features with Denoising Autoencoders"
-- [ ] sliced wasserstein autoencoders : https://arxiv.org/abs/1804.01947
+- [ ] **Wasserstein Autoencoder** (2017) [[paper](https://arxiv.org/abs/1711.01558)]
+    - Tolstikhin et al. "Wasserstein Auto Encoders"
 
 ### Autoregressive models
-- [ ] PixelCNN (2016) [paper](https://arxiv.org/abs/1606.05328)
-    - Oord, Aaron van den, et al. "Conditional image generation with PixelCNN decoders."
-- [ ] WaveNet
+- [ ] **PixelCNN** (2016) [[paper](https://arxiv.org/abs/1606.05328)]
+    - van den Oord et al. "Conditional image generation with PixelCNN decoders."
+- [ ] **WaveNet** (2016) [[paper](https://arxiv.org/abs/1609.03499)]
+    - van den Oord et al. "WaveNet: A Generative Model for Raw Audio"
 - [ ] tacotron
 
 ### Stochastic gradient descent techniques
