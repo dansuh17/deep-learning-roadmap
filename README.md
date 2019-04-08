@@ -13,19 +13,28 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [Stanford's CS231n Class Notes](http://cs231n.github.io/)
   
 ### Basic CNN Architectures
-- [x] **AlexNet** (2012) [paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
+- [x] **AlexNet** (2012) [[paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)]
     - Alex Krizhevsky et al. "ImageNet Classification with Deep Convolutional Neural Networks"
-- [x] **ZFNet** (2013) [paper](https://arxiv.org/abs/1311.2901)
+- [x] **ZFNet** (2013) [[paper](https://arxiv.org/abs/1311.2901)]
     - Zeiler et al. "Visualizing and Understanding Convolutional Networks"
 - [x] **VGG**: (2014)
     - Simonyan et al. "Very Deep Convolutional Networks for Large-Scale Image Recognition" (2014) [Google DeepMind & Oxford's Visual Geometry Group (VGG)] [[paper](https://arxiv.org/abs/1409.1556)]
     - _VGG-16_: Zhang et al. "Accelerating Very Deep Convolutional Networks for Classification and Detection" [[paper](https://arxiv.org/abs/1505.06798?context=cs)]
-- [x] **ResNet**: https://arxiv.org/abs/1512.03385
-- [x] [read] **GoogLeNet**: https://arxiv.org/abs/1409.4842
-- [x] **Inception**: https://arxiv.org/abs/1512.00567
-- [x] [read] **Xception**: https://arxiv.org/abs/1610.02357
-- [x] **MobileNet**: https://arxiv.org/abs/1704.04861
-- [ ] **DenseNet** (2018) [paper](https://arxiv.org/abs/1608.06993)
+- [x] **GoogLeNet**, a.k.a **Inception v.1** [[paper](https://arxiv.org/abs/1409.4842)]
+    - Szegedy et al. "Going Deeper with Convolutions" (2014)
+    - Original [LeNet page](http://yann.lecun.com/exdb/lenet/) from Yann LeCun's homepage.
+    - [x] **Inception v.2 and v.3**: Szegedy et al. "Rethinking the Inception Architecture for Computer Vision" (2015) [[paper](https://arxiv.org/abs/1512.00567)]
+    - [x] **Inception v.4 and InceptionResNet** Szegedy et al. "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning" (2016) [[paper](https://arxiv.org/abs/1602.07261)]
+    - "A Simple Guide to the Versions of the Inception Network" [[blogpost](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)]
+- [x] **ResNet**: [[paper](https://arxiv.org/abs/1512.03385)]
+    - He et al. "Deep Residual Learning for Image Recognition" (2015)
+- [x] **Xception**: [[paper](https://arxiv.org/abs/1610.02357)]
+    - Chollet, Francois - "Xception: Deep Learning with Depthwise Separable Convolutions" (2016)
+- [x] **MobileNet**: [[paper](https://arxiv.org/abs/1704.04861)]
+    - Howard et al. "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications" (2016)
+    - A nice paper about reducing CNN parameter sizes while maintaining performance.
+- [ ] **DenseNet** [[paper](https://arxiv.org/abs/1608.06993)]
+    - Huang et al. "Densely Connected Convolutional Networks" (2018)
 
 
 ### Generative adversarial networks
