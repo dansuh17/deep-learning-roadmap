@@ -156,7 +156,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] DilatedRNNs : https://arxiv.org/abs/1710.02224
 
 ### Compression
-- **MobileNet** (2016) (see above)
+- **MobileNet** (2016) (see above: [Basic CNN Architectures](https://github.com/deNsuh/deep-learning-roadmap/blob/master/README.md#basic-cnn-architectures))
 - [ ] **ShuffleNet** (2017)
     - Zhang et al. "ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices"
 
