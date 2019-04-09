@@ -39,10 +39,15 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 ### Generative adversarial networks
 - [x] **GAN** (2014.6) [[paper](https://arxiv.org/abs/1406.2661)]
+    - Goodfellow et al. "Generative Adversarial Networks"
 - [x] **DCGAN** (2015.11) [[paper](https://arxiv.org/abs/1511.06434)]
-- [x] **Info GAN** (2016.6) [[paper](https://arxiv.org/pdf/1606.03657.pdf)]
+    - Radford et al. "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"
+- [x] **Info GAN** (2016.6) [[paper](https://arxiv.org/abs/1606.03657)]
+    - Chen et al. "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"
 - [x] **f-GAN** (2016.6) [[paper](https://arxiv.org/abs/1606.00709)]
+    - Nowozin et al. "f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization"
 - [x] **Unrolled GAN** (2016.7) [[paper](https://arxiv.org/abs/1611.02163)]
+    - Metz et al. "Unrolled Generative Adversarial Networks"
 - [x] **ACGAN** (2016.10) [[paper](https://arxiv.org/abs/1610.09585)]
 - [x] **LSGAN** (2016.11) [[paper](https://arxiv.org/abs/1611.04076)]
 - [x] **Pix2Pix** (2016.11) [[paper](https://arxiv.org/abs/1611.07004)]
