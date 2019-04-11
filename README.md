@@ -49,7 +49,9 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [x] **Unrolled GAN** (2016.7) [[paper](https://arxiv.org/abs/1611.02163)]
     - Metz et al. "Unrolled Generative Adversarial Networks"
 - [x] **ACGAN** (2016.10) [[paper](https://arxiv.org/abs/1610.09585)]
+    - Odena et al. "Conditional Image Synthesis With Auxiliary Classifier GANs"
 - [x] **LSGAN** (2016.11) [[paper](https://arxiv.org/abs/1611.04076)]
+    - Mao et al. "Least Squares Generative Adversarial Networks"
 - [x] **Pix2Pix** (2016.11) [[paper](https://arxiv.org/abs/1611.07004)]
 - [x] **EBGAN** (2016.11) [[paper](https://arxiv.org/abs/1609.03126)]
 - [x] **WGAN** (2017.4) [[paper](https://arxiv.org/abs/1701.07875)]
@@ -65,19 +67,25 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 ### Advanced GANs
 - [ ] Augmented CycleGAN
-- [ ] Joint GAN
-- [ ] Semi-Amortized Variational Autoencoders
 - [ ] Self-Attention GAN : https://github.com/brain-research/self-attention-gan
 - [ ] GAN dissection https://arxiv.org/abs/1811.10597v1
-- [ ] Banach Wasserstein GAN https://arxiv.org/abs/1806.06621
 - [ ] Are GANs created equal? https://arxiv.org/abs/1711.10337
 - [ ] Semantic Image Synthesis with Spatially-Adaptive Normalization
  https://arxiv.org/abs/1903.07291
 - [ ] Self-supervised GAN https://arxiv.org/abs/1811.11212
 - [ ] **DRAGAN** (2017.5) [[paper](https://arxiv.org/abs/1705.07215)]
+- [ ] **Spectral Normalization** (2018.2) [[paper](https://arxiv.org/abs/1802.05957)]
+    - Miyato et al. "Spectral Normalization for Generative Adversarial Networks"
 - [ ] **SAGAN** (2018.5)  [[paper](https://arxiv.org/abs/1805.08318)]
 - [ ] [Which Training Methods for GAN do actually converge? (2018.7)](https://arxiv.org/abs/1801.04406)
 - [ ] [Improving Generalization and Stability for GANs (2019)](https://openreview.net/pdf?id=ByxPYjC5KQ&fbclid=IwAR2_8Qft8cIX3y-Cki-4JzWMeoxm91yUq1ELA3N7eJBMTedPuUz8H6vvqMo)
+- [ ] Augustus Odena - "Open Questions about GANs" (2019.4) [[distill.pub](https://distill.pub/2019/gan-open-problems/)]
+    - Very nice article about current state of GAN research and discusses problems yet to be solved.
+
+
+### Adversarial Attacks
+- [ ] Szegedy et al. - Intreguing Properties of Neural Networks (2013.12) [[paper](https://arxiv.org/abs/1312.6199)]
+    - induces missclassification by applying small perturbations
 
 ### Autoencoders
 - [ ] Original autoencoder (1986) [[paper](https://web.stanford.edu/class/psych209a/ReadingsByDate/02_06/PDPVolIChapter8.pdf)]
@@ -97,7 +105,9 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] tacotron
 
 ### Stochastic gradient descent techniques
-- [On large batch training of NN](https://arxiv.org/abs/1609.04836)
+- [ ] [On large batch training of NN](https://arxiv.org/abs/1609.04836)
+- [ ] Choromanska et al. "The Loss Surfaces of Multilayer Networks" (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
+    - argues that non-convexity in NNs are not a huge problem
 
 ### Layer Normalizations
 - Batch Norm
@@ -121,6 +131,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - Neural Discrete Representation Learning : https://arxiv.org/pdf/1711.00937.pdf
 
 ### Variational Autoencoders (VAE)
+- [ ] **Semi-Amortized Variational Autoencoders**
 
 ### Object detection
 - [ ] RCNN: https://arxiv.org/abs/1311.2524
