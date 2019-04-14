@@ -67,23 +67,24 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Park et al. "Semantic Image Synthesis with Spatially-Adaptive Normalization"
 
 ### Advanced GANs
-- [ ] Augmented CycleGAN
-- [ ] Self-Attention GAN : https://github.com/brain-research/self-attention-gan
 - [ ] GAN dissection https://arxiv.org/abs/1811.10597v1
-- [ ] Are GANs created equal? https://arxiv.org/abs/1711.10337
 - [ ] Semantic Image Synthesis with Spatially-Adaptive Normalization
  https://arxiv.org/abs/1903.07291
-- [ ] Self-supervised GAN https://arxiv.org/abs/1811.11212
 - [ ] **DRAGAN** (2017.5) [[paper](https://arxiv.org/abs/1705.07215)]
+- [ ] **Are GANs Created Equal?** (2017.11) [[paper](https://arxiv.org/abs/1711.10337)]
+    - Lucic et al. "Are GANs Created Equal? A Large-Scale Study"
+- [ ] **SGAN** (2017.12) [[paper](https://arxiv.org/abs/1712.02330)]
+    - Chavdarova et al. "SGAN: An Alternative Training of Generative Adversarial Networks"
 - [ ] **MaskGAN** (2018.1) [[paper](https://arxiv.org/abs/1801.07736)]
     - Fedus et al. "MaskGAN: Better Text Generation via Filling in the _____"
 - [ ] **Spectral Normalization** (2018.2) [[paper](https://arxiv.org/abs/1802.05957)]
     - Miyato et al. "Spectral Normalization for Generative Adversarial Networks"
-- [ ] **SAGAN** (2018.5)  [[paper](https://arxiv.org/abs/1805.08318)]
+- [ ] **SAGAN** (2018.5)  [[paper](https://arxiv.org/abs/1805.08318)]  [[tensorflow](https://github.com/brain-research/self-attention-gan)]
+    - Zhang et al. "Self-Attention Generative Adversarial Networks"
 - [ ] **Unusual Effectiveness of Averaging in GAN Training** (2018) [[paper](https://arxiv.org/abs/1806.04498)]
     - "Benefitting from training on past snapshots."
     - Uses exponential moving averaging (EMA)
-- [ ] Disconnected Manifold Learning (2018.6) [[paper](https://arxiv.org/abs/1806.00880)]
+- [ ] **Disconnected Manifold Learning** (2018.6) [[paper](https://arxiv.org/abs/1806.00880)]
     - Khayatkhoei, et al. "Disconnected Manifold Learning for Generative Adversarial Networks"
 - [ ] [Which Training Methods for GAN do actually converge? (2018.7)](https://arxiv.org/abs/1801.04406)
 - [ ] [Improving Generalization and Stability for GANs (2019)](https://openreview.net/pdf?id=ByxPYjC5KQ&fbclid=IwAR2_8Qft8cIX3y-Cki-4JzWMeoxm91yUq1ELA3N7eJBMTedPuUz8H6vvqMo)
@@ -217,8 +218,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
  https://arxiv.org/abs/1803.07728
 
 ### Interpretability
-- [ ] Deconvolution and Checkerboard Artifacts - Odena (2016) [[distill.pub article](https://distill.pub/2016/deconv-checkerboard/)]
-- [ ] Visualizing loss landscape of neural nets (2018) https://arxiv.org/abs/1712.09913v3
+- [ ] **Deconvolution and Checkerboard Artifacts** - Odena (2016) [[distill.pub article](https://distill.pub/2016/deconv-checkerboard/)]
+- [ ] **Visualizing loss landscape of neural nets** (2018) https://arxiv.org/abs/1712.09913v3
 
 ### Neural architecture search (NAS) and AutoML
 - Efficient Neural Architecture Search by Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf
