@@ -44,6 +44,10 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Radford et al. "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"
 - [x] **Info GAN** (2016.6) [[paper](https://arxiv.org/abs/1606.03657)]
     - Chen et al. "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"
+- [x] **Improved Techinques for Training GANs** (2016.6) [[paper](https://arxiv.org/abs/1606.03498)]
+    - Salimans et al. "Improved Techinques for Training GANs"
+    - This paper suggests multiple GAN training techinques such as _feautre matching_, _minibatch discrimination_, _one sided label smoothing_, _virtual batch normalization_.
+    - It also suggests a renown generator performance metric, called the **inception score**.
 - [x] **f-GAN** (2016.6) [[paper](https://arxiv.org/abs/1606.00709)]
     - Nowozin et al. "f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization"
 - [x] **Unrolled GAN** (2016.7) [[paper](https://arxiv.org/abs/1611.02163)]
@@ -57,14 +61,19 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [x] **WGAN** (2017.4) [[paper](https://arxiv.org/abs/1701.07875)]
 - [x] **WGAN_GP** (2017.5) [[paper](https://arxiv.org/abs/1704.00028)]
 - [x] **BEGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.10717)]
+    - Berthelot et al. "BEGAN: Boundary Equilibrium Generative Adversarial Networks"
+    - Introduces a _diversity ratio_, or an _equilibrium constant_ that controls the variety - quality tradeoff, and also proposes a convergence measure using it.
 - [ ] **CycleGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.10593)]
     - [ ] **DiscoGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.05192)]
     - DiscoGAN and CycleGAN proposes the EXACT SAME learning techniques for style transfer task using GAN, developed independently at the same time.
+- [ ] **Frechet Inception Distance (FID)** (2017.6) [[paper](https://arxiv.org/abs/1706.08500)]
+    - Heusel et al. "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium"
 - [ ] **ProGAN** (2017.10) [[paper](https://arxiv.org/abs/1710.10196)]
     - Karras et al. "Progressive Growing of GANs for Improved Quality, Stability, and Variation"
 - [ ] **BigGAN** (2018) [[paper](https://arxiv.org/abs/1809.11096)]
 - [ ] **GauGAN** (2019.3) [[paper](https://arxiv.org/abs/1903.07291)]
     - Park et al. "Semantic Image Synthesis with Spatially-Adaptive Normalization"
+    
 
 ### Advanced GANs
 - [ ] GAN dissection https://arxiv.org/abs/1811.10597v1
