@@ -76,9 +76,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     
 
 ### Advanced GANs
-- [ ] GAN dissection https://arxiv.org/abs/1811.10597v1
-- [ ] Semantic Image Synthesis with Spatially-Adaptive Normalization
- https://arxiv.org/abs/1903.07291
+
+- [ ] Semantic Image Synthesis with Spatially-Adaptive Normalization https://arxiv.org/abs/1903.07291
 - [ ] **DRAGAN** (2017.5) [[paper](https://arxiv.org/abs/1705.07215)]
 - [ ] **Are GANs Created Equal?** (2017.11) [[paper](https://arxiv.org/abs/1711.10337)]
     - Lucic et al. "Are GANs Created Equal? A Large-Scale Study"
@@ -96,8 +95,10 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] **Disconnected Manifold Learning** (2018.6) [[paper](https://arxiv.org/abs/1806.00880)]
     - Khayatkhoei, et al. "Disconnected Manifold Learning for Generative Adversarial Networks"
 - [ ] [Which Training Methods for GAN do actually converge? (2018.7)](https://arxiv.org/abs/1801.04406)
+- [ ] **GAN Dissection** (2018.11) [[paper](https://arxiv.org/abs/1811.10597)]
+    - Bau et al. "GAN Dissection: Visualizing and Understanding Generative Adversarial Networks"
 - [ ] [Improving Generalization and Stability for GANs (2019)](https://openreview.net/pdf?id=ByxPYjC5KQ&fbclid=IwAR2_8Qft8cIX3y-Cki-4JzWMeoxm91yUq1ELA3N7eJBMTedPuUz8H6vvqMo)
-- [ ] Augustus Odena - "Open Questions about GANs" (2019.4) [[distill.pub](https://distill.pub/2019/gan-open-problems/)]
+- [ ] Augustus Odena - _"Open Questions about GANs"_ (2019.4) [[distill.pub](https://distill.pub/2019/gan-open-problems/)]
     - Very nice article about current state of GAN research and discusses problems yet to be solved.
 
 
@@ -174,7 +175,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [Nice survey](https://github.com/hoya012/deep_learning_object_detection)
 
 ### Sequential Model
-- [ ] Seq2Seq [36] Sutskever, Ilya, Oriol Vinyals, and Quoc V. Le. "Sequence to sequence learning with neural networks." Advances in neural information processing systems. 2014. [pdf] (Outstanding Work) ⭐️⭐️⭐️⭐️⭐️
+- [ ] **Seq2Seq** (2014) [[paper](https://arxiv.org/abs/1409.3215)]
+    - Sutskever et al. "Sequence to sequence learning with neural networks."
 
 ### Neural Turing Machine
 - [ ] **Neural Turing Machines** (2014) [[paper](https://arxiv.org/abs/1410.5401)]
