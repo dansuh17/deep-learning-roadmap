@@ -187,8 +187,12 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 ### Attention / Question-Answering
 - [ ] **NMT (Neural Machine Translation)** (2014) [[paper](https://arxiv.org/abs/1409.0473)]
     - Bahdanau et al, "Neural Machine Translation by Jointly Learning to Align and Translate"
+- [ ] **Stanford Attentive Reader** (2016.6) [[paper](https://arxiv.org/abs/1606.02858)]
+    - Chen et al. "A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task"
 - [ ] **BiDAF** (2016.11) [[paper](https://arxiv.org/abs/1611.01603)]
     - Seo et al. "Bidirectional Attention Flow for Machine Comprehension"
+- [ ] **DrQA** or **Stanford Attentive Reader++** (2017.3) [[paper](https://arxiv.org/abs/1704.00051)]
+    - Chen et al. "Reading Wikipedia to Answer Open-Domain Questions"
 - [ ] **Attention is all you need** (2017) [[paper](https://arxiv.org/abs/1706.03762)]
      -  Vaswani et al. "Attention is all you need"    
 - [ ] [read] Lilian Weng - **"Attention? Attention!"** (2018) [[blog_post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)]
