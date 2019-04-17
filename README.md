@@ -70,6 +70,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Heusel et al. "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium"
 - [ ] **ProGAN** (2017.10) [[paper](https://arxiv.org/abs/1710.10196)]
     - Karras et al. "Progressive Growing of GANs for Improved Quality, Stability, and Variation"
+- [ ] **PacGAN** (2017.12) [[paper](https://arxiv.org/abs/1712.04086)]
+    - Higgins et al. "Early Visual Concept Learning with Unsupervised Deep Learning"
 - [ ] **BigGAN** (2018) [[paper](https://arxiv.org/abs/1809.11096)]
 - [ ] **GauGAN** (2019.3) [[paper](https://arxiv.org/abs/1903.07291)]
     - Park et al. "Semantic Image Synthesis with Spatially-Adaptive Normalization"
@@ -147,6 +149,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Wang et al. "Few-shot Learning: A Survey"
 
 ### Transfer learning
+- [ ] **Survey 2018** (2018) [[paper](https://arxiv.org/abs/1808.01974)]
+    - Tan et al. "A Survey on Deep Transfer Learning"
 
 ### Representation learning
 - Neural Discrete Representation Learning : https://arxiv.org/pdf/1711.00937.pdf
@@ -239,6 +243,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 ### Interpretability
 - [ ] **Deconvolution and Checkerboard Artifacts** - Odena (2016) [[distill.pub article](https://distill.pub/2016/deconv-checkerboard/)]
 - [ ] **Visualizing loss landscape of neural nets** (2018) https://arxiv.org/abs/1712.09913v3
+- [ ] Graetz - "How to visualize convolution features in 40 lines of code" (2019) [[medium](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)]
 
 ### Neural architecture search (NAS) and AutoML
 - Efficient Neural Architecture Search by Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf
@@ -254,12 +259,14 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - which DL algorithms should I implement to learn?
 https://www.reddit.com/r/MachineLearning/comments/8vmuet/d_what_deep_learning_papers_should_i_implement_to/
 
+
 ### Theory
 - [Theoretical principles for Deep Learning](http://mitliagkas.github.io/ift6085-dl-theory-class-2019/?fbclid=IwAR02mfw0hMM5UFaBuxBgDi5wfT6TaIt35wktZGpCmmhu0_3GMA6HqFN1GFs)
 - [Bubeck - Convex Optimization - Algorithms and Complexity](https://arxiv.org/pdf/1405.4980.pdf)
 - [Stanford STATS 385 - Theories of Deep Learning](https://stats385.github.io/)
     - [Lecture Videos](https://www.researchgate.net/project/Theories-of-Deep-Learning?fbclid=IwAR0dwnuswA1jMwIOuydb_a83AM22FfuD6PpAWPiIW-76OCemcRBrVVLKLoM)
 - CSC 231 notes : http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/
+
 
 ### Resources
 - **A Selective Overview of Deep Learning** (2019) [[paper](https://arxiv.org/abs/1904.05526)]
