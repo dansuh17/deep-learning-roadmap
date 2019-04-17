@@ -142,7 +142,9 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - **Inverted Dropouts** [[notes on CS231n](http://cs231n.github.io/neural-networks-2/#reg)]
     - Multiplying the inverted _keep_prob_ value on training so that values during inference (or testing) is consistent.
 
-### Zero-shot learning
+### Zero-Shot learning, Few-Shot learning
+- [ ] **Few-Shot learning Survey** (2019.4) [[paper](https://arxiv.org/abs/1904.05046)]
+    - Wang et al. "Few-shot Learning: A Survey"
 
 ### Transfer learning
 
@@ -258,3 +260,8 @@ https://www.reddit.com/r/MachineLearning/comments/8vmuet/d_what_deep_learning_pa
 - [Stanford STATS 385 - Theories of Deep Learning](https://stats385.github.io/)
     - [Lecture Videos](https://www.researchgate.net/project/Theories-of-Deep-Learning?fbclid=IwAR0dwnuswA1jMwIOuydb_a83AM22FfuD6PpAWPiIW-76OCemcRBrVVLKLoM)
 - CSC 231 notes : http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/
+
+### Resources
+- **A Selective Overview of Deep Learning** (2019) [[paper](https://arxiv.org/abs/1904.05526)]
+    - Fan et al. "A Selective Overview of Deep Learning"
+    - A nice overview paper on deep learning up to early 2019 (about 30 pages)
