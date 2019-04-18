@@ -134,6 +134,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - Batch Norm
 - Group Norm
 - Instance Norm
+- Santurkar et al. "How does Batch Normalization help Optimization?" (2018.5) [[paper](https://arxiv.org/abs/1805.11604)]
 - **Switchable Normalization** (2019) [[paper](https://arxiv.org/abs/1806.10779)]
     - Luo et al. "Differentiable Learning-to-Normalize via Switchable Normalization"
 - Weight Standardization : https://arxiv.org/abs/1903.10520
@@ -242,8 +243,10 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 ### Interpretability
 - [ ] **Deconvolution and Checkerboard Artifacts** - Odena (2016) [[distill.pub article](https://distill.pub/2016/deconv-checkerboard/)]
-- [ ] **Visualizing loss landscape of neural nets** (2018) https://arxiv.org/abs/1712.09913v3
+- [ ] Zhang et al. "Understanding deep learning requires rethinking generalization" (2016.11) [[paper](https://arxiv.org/abs/1611.03530)]
+- [ ] **Visualizing loss landscape of neural nets** (2018) [[paper](https://arxiv.org/abs/1712.09913v3)]
 - [ ] Graetz - "How to visualize convolution features in 40 lines of code" (2019) [[medium](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)]
+- [ ] Zhang et al. "Are all layers created equal?" (2019.2) [[paper](https://arxiv.org/abs/1902.01996)]
 
 ### Neural architecture search (NAS) and AutoML
 - Efficient Neural Architecture Search by Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf
