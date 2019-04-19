@@ -242,7 +242,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 
 ### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
-
+- [ ] Dauphin et al. **"Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"** (2014.6) [[paper](https://arxiv.org/abs/1406.2572)]
 - [ ] Choromanska et al. **"The Loss Surfaces of Multilayer Networks"** (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
     - argues that non-convexity in NNs are not a huge problem
 - [ ] **3-Part Learning Theory** by Mostafa Samir
@@ -259,12 +259,15 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Smith et al. "Don't Decay the Learning Rate, Increase the Batch Size"
 - [ ] Hestness et al. **"Deep Learning Scaling is Predictable, Empirically"** (2017.12) [[paper](https://arxiv.org/abs/1712.00409)]
 - [ ] **Visualizing loss landscape of neural nets** (2018) [[paper](https://arxiv.org/abs/1712.09913v3)]
+- [ ] **Intrinsic Dimension** (2018.4) [[paper](https://arxiv.org/abs/1804.08838)]
+    - Li et al., "Measuring the Intrinsic Dimension of Objective Landscapes"
 - [ ] Geirhos et al. "**ImageNet-trained CNNs are biased towards texture;** increasing shape bias improves accuracy and robustness" (2018.11) [[paper](https://arxiv.org/abs/1811.12231)]
+- [ ] Belkin et al. **"Reconciling modern machine learning and the bias-variance trade-off"** (2018.12) [[paper](https://arxiv.org/abs/1812.11118)]
 - [ ] Graetz - "How to visualize convolution features in 40 lines of code" (2019) [[medium](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)]
 - [ ] Geiger et al. **"Scaling description of generalization with number of parameters in deep learning"** (2019.1) [[paper](https://arxiv.org/abs/1901.01608)]
 - [ ] **Are all layers created equal?** (2019.2) [[paper](https://arxiv.org/abs/1902.01996)]
     - Zhang et al. "Are all layers created equal?" 
-- [ ] Lilian Weng - **"Are Deep Neural Networks Dramatically Overfitted?"** (2019.4) [[lil'log](https://lilianweng.github.io/lil-log/2019/03/14/are-deep-neural-networks-dramatically-overfitted.html)]
+- [x] Lilian Weng - **"Are Deep Neural Networks Dramatically Overfitted?"** (2019.4) [[lil'log](https://lilianweng.github.io/lil-log/2019/03/14/are-deep-neural-networks-dramatically-overfitted.html)]
     - Excellent article about generalization and overfitting of deep neural networks
 
 
