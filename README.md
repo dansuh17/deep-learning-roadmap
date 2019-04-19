@@ -33,7 +33,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [x] **MobileNet** (2016) [[paper](https://arxiv.org/abs/1704.04861)]
     - Howard et al. "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
     - A nice paper about reducing CNN parameter sizes while maintaining performance.
-- [ ] **DenseNet** (2018) [[paper](https://arxiv.org/abs/1608.06993)]
+- [ ] **DenseNet** (2016) [[paper](https://arxiv.org/abs/1608.06993)]
     - Huang et al. "Densely Connected Convolutional Networks"
 
 
@@ -243,9 +243,9 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 ### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
 
-- [ ] Choromanska et al. "The Loss Surfaces of Multilayer Networks" (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
+- [ ] Choromanska et al. **"The Loss Surfaces of Multilayer Networks"** (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
     - argues that non-convexity in NNs are not a huge problem
-- [ ] 3-part Learning Theory by Mostafa Samir
+- [ ] **3-Part Learning Theory** by Mostafa Samir
     - [part 1: Introduction](https://mostafa-samir.github.io/ml-theory-pt1/)
     - [part 2: Generalization Bounds](https://mostafa-samir.github.io/ml-theory-pt2/)
     - [part 3: Regularization and Variance-Bias Tradeoff](https://mostafa-samir.github.io/ml-theory-pt3/)
@@ -256,17 +256,15 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Shwartz-Ziv and Tishby, "Opening the Black Box of Deep Neural Networks via Information"
 - [ ] **Don't Decay the Learning Rate, Increase the Batch Size** (2017.11) [[paper](https://arxiv.org/abs/1711.00489)]
     - Smith et al. "Don't Decay the Learning Rate, Increase the Batch Size"
-- [ ] (2017.12) 
-    - Hestness et al. "Deep Learning Scaling is Predictable, Empirically" (2017.12) [[paper](https://arxiv.org/abs/1712.00409)]
+- [ ] Hestness et al. **"Deep Learning Scaling is Predictable, Empirically"** (2017.12) [[paper](https://arxiv.org/abs/1712.00409)]
 - [ ] **Visualizing loss landscape of neural nets** (2018) [[paper](https://arxiv.org/abs/1712.09913v3)]
-- [ ] Geirhos et al. "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness" (2018.11) [[paper](https://arxiv.org/abs/1811.12231)]
+- [ ] Geirhos et al. "**ImageNet-trained CNNs are biased towards texture;** increasing shape bias improves accuracy and robustness" (2018.11) [[paper](https://arxiv.org/abs/1811.12231)]
 - [ ] Graetz - "How to visualize convolution features in 40 lines of code" (2019) [[medium](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)]
-- [ ] Geiger et al. "Scaling description of generalization with number of parameters in deep learning" (2019.1) [[paper](https://arxiv.org/abs/1901.01608)]
+- [ ] Geiger et al. **"Scaling description of generalization with number of parameters in deep learning"** (2019.1) [[paper](https://arxiv.org/abs/1901.01608)]
 - [ ] **Are all layers created equal?** (2019.2) [[paper](https://arxiv.org/abs/1902.01996)]
     - Zhang et al. "Are all layers created equal?" 
 - [ ] Lilian Weng - **"Are Deep Neural Networks Dramatically Overfitted?"** (2019.4) [[lil'log](https://lilianweng.github.io/lil-log/2019/03/14/are-deep-neural-networks-dramatically-overfitted.html)]
     - Excellent article about generalization and overfitting of deep neural networks
-
 
 
 ### Neural architecture search (NAS) and AutoML
