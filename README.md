@@ -127,8 +127,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 ### Stochastic gradient descent techniques
 - [ ] [On large batch training of NN](https://arxiv.org/abs/1609.04836)
-- [ ] Choromanska et al. "The Loss Surfaces of Multilayer Networks" (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
-    - argues that non-convexity in NNs are not a huge problem
+
 
 ### Layer Normalizations
 - Batch Norm
@@ -206,11 +205,11 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - A nice explanation of attention mechanism and its concepts.
 
 ### Advanced RNNs
-- [ ] Unitary evolution RNNs : https://arxiv.org/abs/1511.06464
-- [ ] Recurrent Batch Norm : https://arxiv.org/abs/1603.09025
-- [ ] Zoneout : https://arxiv.org/abs/1606.01305
-- [ ] IndRNN : https://arxiv.org/abs/1803.04831
-- [ ] DilatedRNNs : https://arxiv.org/abs/1710.02224
+- Unitary evolution RNNs : https://arxiv.org/abs/1511.06464
+- Recurrent Batch Norm : https://arxiv.org/abs/1603.09025
+- Zoneout : https://arxiv.org/abs/1606.01305
+- IndRNN : https://arxiv.org/abs/1803.04831
+- DilatedRNNs : https://arxiv.org/abs/1710.02224
 
 ### Compression
 - **MobileNet** (2016) (see above: [Basic CNN Architectures](https://github.com/deNsuh/deep-learning-roadmap/blob/master/README.md#basic-cnn-architectures))
@@ -241,20 +240,45 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] Unsupervised Representation Learning by Predicting Image Rotations
  https://arxiv.org/abs/1803.07728
 
+
 ### Interpretability
+- [ ] **Information Bottleneck** (2000) [[paper](https://arxiv.org/abs/physics/0004057)] [[youtube-talk](https://youtu.be/bLqJHjXihK8)] [[article in quantamagazine](https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/)]
+    - Tishby et al. "The information bottleneck method"
+- [ ] Choromanska et al. "The Loss Surfaces of Multilayer Networks" (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
+    - argues that non-convexity in NNs are not a huge problem
 - [ ] **Deconvolution and Checkerboard Artifacts** - Odena (2016) [[distill.pub article](https://distill.pub/2016/deconv-checkerboard/)]
-- [ ] Zhang et al. "Understanding deep learning requires rethinking generalization" (2016.11) [[paper](https://arxiv.org/abs/1611.03530)]
+- [ ] **Rethinking Generalization** (2016.11) [[paper](https://arxiv.org/abs/1611.03530)]
+    - Zhang et al. "Understanding deep learning requires rethinking generalization"
+- [ ] **Don't Decay the Learning Rate, Increase the Batch Size** (2017.11) [[paper](https://arxiv.org/abs/1711.00489)]
+    - Smith et al. "Don't Decay the Learning Rate, Increase the Batch Size"
+- [ ] (2017.12) 
+    - Hestness et al. "Deep Learning Scaling is Predictable, Empirically" (2017.12) [[paper](https://arxiv.org/abs/1712.00409)]
 - [ ] **Visualizing loss landscape of neural nets** (2018) [[paper](https://arxiv.org/abs/1712.09913v3)]
+- [ ] Geirhos et al. "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness" (2018.11) [[paper](https://arxiv.org/abs/1811.12231)]
 - [ ] Graetz - "How to visualize convolution features in 40 lines of code" (2019) [[medium](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)]
-- [ ] Zhang et al. "Are all layers created equal?" (2019.2) [[paper](https://arxiv.org/abs/1902.01996)]
+- [ ] **Are all layers created equal?** (2019.2) [[paper](https://arxiv.org/abs/1902.01996)]
+    - Zhang et al. "Are all layers created equal?" 
+- [ ] Lilian Weng - **"Are Deep Neural Networks Dramatically Overfitted?"** (2019.4) [[lil'log](https://lilianweng.github.io/lil-log/2019/03/14/are-deep-neural-networks-dramatically-overfitted.html)]
+    - Excellent article about generalization and overfitting of deep neural networks
+
+
 
 ### Neural architecture search (NAS) and AutoML
-- Efficient Neural Architecture Search by Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf
-- AdaNet
-
-### Randomly Wired Neural Nets
-- [ ] **RandWire** (2019) [[paper](https://arxiv.org/abs/1904.01569)]
+- **GREAT AutoML Website** [[site](https://www.automl.org/)]
+    - They maintain a blog, a list of NAS literatures, analysis page, and a web book.
+- **NAS** (2016.12) [[paper](https://arxiv.org/abs/1611.01578)]
+    - Zoph et al. "Neural Architecture Search with Reinforcement Learning"
+- **ENAS** (2018.2) [[paper](https://arxiv.org/abs/1802.03268)]
+    - Pham et al. "Efficient Neural Architecture Search via Parameter Sharing"
+- **PNAS** (2017.12) [[paper](https://arxiv.org/abs/1712.00559)]
+    - Liu et al. "Progressive Neural Architecture Search"
+- **NAS Survey 2018** (2018.4) [[paper](https://arxiv.org/abs/1808.05377)]
+- **DARTS** (2018.6) [[paper](https://arxiv.org/abs/1806.09055)]
+    - Liu et al. "DARTS: Differentiable Architecture Search"
+    - Uses a continuous relaxation over the discrete neural architecture space.
+- **RandWire** (2019) [[paper](https://arxiv.org/abs/1904.01569)]
     - Xie et al. "Exploring Randomly Wired Neural Networks for Image Recognition" [Facebook AI Research]
+    
 
 ## DL roadmap reference
 - https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
