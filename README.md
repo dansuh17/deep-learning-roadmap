@@ -3,7 +3,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 **There are some customized differences:**
 - not only academic papers but also blog posts, online courses, and other references are included
-- customized for my own targeted roadmap - may not include RL, NLP, etc.
+- customized for my own plans - may not include RL, NLP, etc.
 - updated for 2019 SOTA
 
 ### Introductory Courses
