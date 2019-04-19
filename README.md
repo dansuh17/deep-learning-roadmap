@@ -71,7 +71,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] **ProGAN** (2017.10) [[paper](https://arxiv.org/abs/1710.10196)]
     - Karras et al. "Progressive Growing of GANs for Improved Quality, Stability, and Variation"
 - [ ] **PacGAN** (2017.12) [[paper](https://arxiv.org/abs/1712.04086)]
-    - Higgins et al. "Early Visual Concept Learning with Unsupervised Deep Learning"
+    - Higgins et al. "PacGAN: The power of two samples in generative adversarial networks"
 - [ ] **BigGAN** (2018) [[paper](https://arxiv.org/abs/1809.11096)]
 - [ ] **GauGAN** (2019.3) [[paper](https://arxiv.org/abs/1903.07291)]
     - Park et al. "Semantic Image Synthesis with Spatially-Adaptive Normalization"
@@ -125,18 +125,18 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - van den Oord et al. "WaveNet: A Generative Model for Raw Audio"
 - [ ] tacotron
 
-### Stochastic gradient descent techniques
-- [ ] [On large batch training of NN](https://arxiv.org/abs/1609.04836)
-
 
 ### Layer Normalizations
-- Batch Norm
+- [x] **Batch Normalization** (2015.2) [[paper](https://arxiv.org/abs/1502.03167)]
+    - Ioeffe et al. "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
 - Group Norm
-- Instance Norm
-- Santurkar et al. "How does Batch Normalization help Optimization?" (2018.5) [[paper](https://arxiv.org/abs/1805.11604)]
-- **Switchable Normalization** (2019) [[paper](https://arxiv.org/abs/1806.10779)]
+- [x] **Instance Normalization** (2016.7) [[paper](https://arxiv.org/abs/1607.08022)]
+    - Ulyanov et al. "Instance Normalization: The Missing Ingredient for Fast Stylization"
+- Santurkar et al. **"How does Batch Normalization help Optimization?"** (2018.5) [[paper](https://arxiv.org/abs/1805.11604)]
+- [ ] **Switchable Normalization** (2019) [[paper](https://arxiv.org/abs/1806.10779)]
     - Luo et al. "Differentiable Learning-to-Normalize via Switchable Normalization"
-- Weight Standardization : https://arxiv.org/abs/1903.10520
+- [ ] **Weight Standardization** (2019.3) [[paper](https://arxiv.org/abs/1903.10520)]
+    - Qiao et al. "Weight Standardization"
 
 ### Dropouts
 - **Dropout** (2014) [[paper](http://jmlr.org/papers/v15/srivastava14a.html)]
@@ -250,6 +250,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - [part 2: Generalization Bounds](https://mostafa-samir.github.io/ml-theory-pt2/)
     - [part 3: Regularization and Variance-Bias Tradeoff](https://mostafa-samir.github.io/ml-theory-pt3/)
 - [ ] **Deconvolution and Checkerboard Artifacts** - Odena (2016) [[distill.pub article](https://distill.pub/2016/deconv-checkerboard/)]
+- [ ] Keskar et al. "**On Large-Batch Training for Deep Learning**: Generalization Gap and Sharp Minima" (2016.9) [[paper](https://arxiv.org/abs/1609.04836)]
 - [ ] **Rethinking Generalization** (2016.11) [[paper](https://arxiv.org/abs/1611.03530)]
     - Zhang et al. "Understanding deep learning requires rethinking generalization"
 - [ ] **Information Bottleneck** (2017) [[paper](https://arxiv.org/abs/1703.00810)] [[original paper on information bottleneck (2000)](https://arxiv.org/abs/physics/0004057)] [[youtube-talk](https://youtu.be/bLqJHjXihK8)] [[article in quantamagazine](https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/)]
