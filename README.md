@@ -144,7 +144,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - **Inverted Dropouts** [[notes on CS231n](http://cs231n.github.io/neural-networks-2/#reg)]
     - Multiplying the inverted _keep_prob_ value on training so that values during inference (or testing) is consistent.
 
-### Zero-Shot learning, Few-Shot learning
+### Meta-Learning (Zero-Shot learning, Few-Shot learning)
 - [ ] **Few-Shot learning Survey** (2019.4) [[paper](https://arxiv.org/abs/1904.05046)]
     - Wang et al. "Few-shot Learning: A Survey"
 
