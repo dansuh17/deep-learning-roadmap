@@ -241,14 +241,19 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
  https://arxiv.org/abs/1803.07728
 
 
-### Interpretability
-- [ ] **Information Bottleneck** (2000) [[paper](https://arxiv.org/abs/physics/0004057)] [[youtube-talk](https://youtu.be/bLqJHjXihK8)] [[article in quantamagazine](https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/)]
-    - Tishby et al. "The information bottleneck method"
+### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
+
 - [ ] Choromanska et al. "The Loss Surfaces of Multilayer Networks" (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
     - argues that non-convexity in NNs are not a huge problem
+- [ ] 3-part Learning Theory by Mostafa Samir
+    - [part 1: Introduction](https://mostafa-samir.github.io/ml-theory-pt1/)
+    - [part 2: Generalization Bounds](https://mostafa-samir.github.io/ml-theory-pt2/)
+    - [part 3: Regularization and Variance-Bias Tradeoff](https://mostafa-samir.github.io/ml-theory-pt3/)
 - [ ] **Deconvolution and Checkerboard Artifacts** - Odena (2016) [[distill.pub article](https://distill.pub/2016/deconv-checkerboard/)]
 - [ ] **Rethinking Generalization** (2016.11) [[paper](https://arxiv.org/abs/1611.03530)]
     - Zhang et al. "Understanding deep learning requires rethinking generalization"
+- [ ] **Information Bottleneck** (2017) [[paper](https://arxiv.org/abs/1703.00810)] [[original paper on information bottleneck (2000)](https://arxiv.org/abs/physics/0004057)] [[youtube-talk](https://youtu.be/bLqJHjXihK8)] [[article in quantamagazine](https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/)]
+    - Shwartz-Ziv and Tishby, "Opening the Black Box of Deep Neural Networks via Information"
 - [ ] **Don't Decay the Learning Rate, Increase the Batch Size** (2017.11) [[paper](https://arxiv.org/abs/1711.00489)]
     - Smith et al. "Don't Decay the Learning Rate, Increase the Batch Size"
 - [ ] (2017.12) 
@@ -256,6 +261,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] **Visualizing loss landscape of neural nets** (2018) [[paper](https://arxiv.org/abs/1712.09913v3)]
 - [ ] Geirhos et al. "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness" (2018.11) [[paper](https://arxiv.org/abs/1811.12231)]
 - [ ] Graetz - "How to visualize convolution features in 40 lines of code" (2019) [[medium](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)]
+- [ ] Geiger et al. "Scaling description of generalization with number of parameters in deep learning" (2019.1) [[paper](https://arxiv.org/abs/1901.01608)]
 - [ ] **Are all layers created equal?** (2019.2) [[paper](https://arxiv.org/abs/1902.01996)]
     - Zhang et al. "Are all layers created equal?" 
 - [ ] Lilian Weng - **"Are Deep Neural Networks Dramatically Overfitted?"** (2019.4) [[lil'log](https://lilianweng.github.io/lil-log/2019/03/14/are-deep-neural-networks-dramatically-overfitted.html)]
