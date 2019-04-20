@@ -79,7 +79,6 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 ### Advanced GANs
 
-- [ ] Semantic Image Synthesis with Spatially-Adaptive Normalization https://arxiv.org/abs/1903.07291
 - [ ] **DRAGAN** (2017.5) [[paper](https://arxiv.org/abs/1705.07215)]
 - [ ] **Are GANs Created Equal?** (2017.11) [[paper](https://arxiv.org/abs/1711.10337)]
     - Lucic et al. "Are GANs Created Equal? A Large-Scale Study"
@@ -96,6 +95,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Uses exponential moving averaging (EMA)
 - [ ] **Disconnected Manifold Learning** (2018.6) [[paper](https://arxiv.org/abs/1806.00880)]
     - Khayatkhoei, et al. "Disconnected Manifold Learning for Generative Adversarial Networks"
+- [ ] **A Note on the Inception Score** (2018.6) [[paper](https://arxiv.org/abs/1801.01973)]
+    - Barratt et al., "A Note on the Inception Score"
 - [ ] [Which Training Methods for GAN do actually converge? (2018.7)](https://arxiv.org/abs/1801.04406)
 - [ ] **GAN Dissection** (2018.11) [[paper](https://arxiv.org/abs/1811.10597)]
     - Bau et al. "GAN Dissection: Visualizing and Understanding Generative Adversarial Networks"
