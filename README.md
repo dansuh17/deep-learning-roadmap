@@ -138,6 +138,16 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Luo et al. "Differentiable Learning-to-Normalize via Switchable Normalization"
 - [ ] **Weight Standardization** (2019.3) [[paper](https://arxiv.org/abs/1903.10520)]
     - Qiao et al. "Weight Standardization"
+    
+### Initializations
+- [ ] **Xavier Initialization** (2010) [[paper](http://proceedings.mlr.press/v9/glorot10a.html)]
+    - Glorot et al., "Understanding the difficulty of training deep feedforward neural networks"
+- [ ] **Kaiming (He) Initialization** (2015.2) [[paper](https://arxiv.org/abs/1502.01852)]
+    - He et al., "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification"
+- [ ] **All you need is a good init** (2015.11) [[paper](https://arxiv.org/abs/1511.06422)]
+    - Mishkin et al., "All you need is a good init"
+- [ ] **All you need is beyond a good init** (2017.4) [[paper](https://arxiv.org/abs/1703.01827)]
+    - Xie et al. "All You Need is Beyond a Good Init: Exploring Better Solution for Training Extremely Deep Convolutional Neural Networks with Orthonormality and Modulation"
 
 ### Dropouts
 - **Dropout** (2014) [[paper](http://jmlr.org/papers/v15/srivastava14a.html)]
@@ -226,7 +236,6 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Not a neural process, but gives very nice intuition about Gaussian Processes. Good Read.
 
 ### Self-supervised learning
-
 - [x] Denoising AE https://www.iro.umontreal.ca/~vincentp/Publications/denoising_autoencoders_tr1316.pdf
 - [ ] Exemplar Nets https://arxiv.org/abs/1406.6909
 - [ ] Co-occ https://arxiv.org/abs/1511.06811
