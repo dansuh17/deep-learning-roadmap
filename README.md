@@ -284,17 +284,19 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 ### Neural architecture search (NAS) and AutoML
 - **GREAT AutoML Website** [[site](https://www.automl.org/)]
     - They maintain a blog, a list of NAS literatures, analysis page, and a web book.
-- **NAS** (2016.12) [[paper](https://arxiv.org/abs/1611.01578)]
+- [ ] **AdaNet** (2016.7) [[paper](https://arxiv.org/abs/1607.01097?context=cs)] [[GoogleAI blog](https://ai.googleblog.com/2018/10/introducing-adanet-fast-and-flexible.html)]
+    - Cortes et al. "AdaNet: Adaptive Structural Learning of Artificial Neural Networks"
+- [ ] **NAS** (2016.12) [[paper](https://arxiv.org/abs/1611.01578)]
     - Zoph et al. "Neural Architecture Search with Reinforcement Learning"
-- **ENAS** (2018.2) [[paper](https://arxiv.org/abs/1802.03268)]
-    - Pham et al. "Efficient Neural Architecture Search via Parameter Sharing"
-- **PNAS** (2017.12) [[paper](https://arxiv.org/abs/1712.00559)]
+- [ ] **PNAS** (2017.12) [[paper](https://arxiv.org/abs/1712.00559)]
     - Liu et al. "Progressive Neural Architecture Search"
-- **NAS Survey 2018** (2018.4) [[paper](https://arxiv.org/abs/1808.05377)]
-- **DARTS** (2018.6) [[paper](https://arxiv.org/abs/1806.09055)]
+- [ ] **ENAS** (2018.2) [[paper](https://arxiv.org/abs/1802.03268)]
+    - Pham et al. "Efficient Neural Architecture Search via Parameter Sharing"
+- [ ] **NAS Survey 2018** (2018.4) [[paper](https://arxiv.org/abs/1808.05377)]
+- [ ] **DARTS** (2018.6) [[paper](https://arxiv.org/abs/1806.09055)]
     - Liu et al. "DARTS: Differentiable Architecture Search"
     - Uses a continuous relaxation over the discrete neural architecture space.
-- **RandWire** (2019) [[paper](https://arxiv.org/abs/1904.01569)]
+- [ ] **RandWire** (2019) [[paper](https://arxiv.org/abs/1904.01569)]
     - Xie et al. "Exploring Randomly Wired Neural Networks for Image Recognition" [Facebook AI Research]
     
 
