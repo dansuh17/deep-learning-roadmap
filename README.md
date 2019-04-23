@@ -97,10 +97,12 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Khayatkhoei, et al. "Disconnected Manifold Learning for Generative Adversarial Networks"
 - [ ] **A Note on the Inception Score** (2018.6) [[paper](https://arxiv.org/abs/1801.01973)]
     - Barratt et al., "A Note on the Inception Score"
-- [ ] [Which Training Methods for GAN do actually converge? (2018.7)](https://arxiv.org/abs/1801.04406)
+- [ ] **Which Training Methods for GAN do actually converge?** (2018.7) [[paper](https://arxiv.org/abs/1801.04406)]
+    - Mescheder et al., "Which Training Methods for GANs do actually Converge?"
 - [ ] **GAN Dissection** (2018.11) [[paper](https://arxiv.org/abs/1811.10597)]
     - Bau et al. "GAN Dissection: Visualizing and Understanding Generative Adversarial Networks"
-- [ ] [Improving Generalization and Stability for GANs (2019)](https://openreview.net/pdf?id=ByxPYjC5KQ&fbclid=IwAR2_8Qft8cIX3y-Cki-4JzWMeoxm91yUq1ELA3N7eJBMTedPuUz8H6vvqMo)
+- [ ] **Improving Generalization and Stability for GANs** (2019.2) [[paper](https://arxiv.org/abs/1902.03984)]
+    - Thanh-Tung et al., "Improving Generalization and Stability of Generative Adversarial Networks"
 - [ ] Augustus Odena - _"Open Questions about GANs"_ (2019.4) [[distill.pub](https://distill.pub/2019/gan-open-problems/)]
     - Very nice article about current state of GAN research and discusses problems yet to be solved.
 
@@ -210,10 +212,14 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Seo et al. "Bidirectional Attention Flow for Machine Comprehension"
 - [ ] **DrQA** or **Stanford Attentive Reader++** (2017.3) [[paper](https://arxiv.org/abs/1704.00051)]
     - Chen et al. "Reading Wikipedia to Answer Open-Domain Questions"
-- [ ] **Attention is all you need** (2017) [[paper](https://arxiv.org/abs/1706.03762)]
+- [ ] **Transformer** (2017.8) [[paper](https://arxiv.org/abs/1706.03762)] [[google ai blog](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)]
      -  Vaswani et al. "Attention is all you need"    
 - [ ] [read] Lilian Weng - **"Attention? Attention!"** (2018) [[blog_post](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)]
     - A nice explanation of attention mechanism and its concepts.
+- [ ] **BERT** (2018.10) [[paper](https://arxiv.org/abs/1810.04805)]
+    - Devlin et al., "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+- [ ] **GPT-2** (2019) [[paper (pdf)](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf)]
+    - Radford et al. "Language Models are Unsupervised Multitask Learners"
 
 ### Advanced RNNs
 - Unitary evolution RNNs : https://arxiv.org/abs/1511.06464
