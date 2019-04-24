@@ -165,15 +165,15 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] **Survey 2018** (2018) [[paper](https://arxiv.org/abs/1808.01974)]
     - Tan et al. "A Survey on Deep Transfer Learning"
 
-### Representation learning
-- Neural Discrete Representation Learning : https://arxiv.org/pdf/1711.00937.pdf
-
 ### Geometric learning
 - **Geometric Deep Learning** (2016) [[paper](https://arxiv.org/abs/1611.08097)]
     - Bronstein et al. "Geometric deep learning: going beyond Euclidean data"
 
 ### Variational Autoencoders (VAE)
-- [ ] **Semi-Amortized Variational Autoencoders**
+- [ ] **VQ-VAE** (2017.11) [[paper](https://arxiv.org/abs/1711.00937)]
+    - van den Oord et al., "Neural Discrete Representation Learning"
+- [ ] **Semi-Amortized Variational Autoencoders** (2018.2) [[paper](https://arxiv.org/abs/1802.02550)]
+    - Kim et al. "Semi-Amortized Variational Autoencoders"
 
 ### Object detection
 - [ ] RCNN: https://arxiv.org/abs/1311.2524
