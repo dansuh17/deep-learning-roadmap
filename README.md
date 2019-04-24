@@ -158,8 +158,10 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Multiplying the inverted _keep_prob_ value on training so that values during inference (or testing) is consistent.
 
 ### Meta-Learning (Zero-Shot learning, Few-Shot learning)
+- [ ] Romera-Paredes et al. - **"An embarrassingly simple approach to zero-shot learning"** (2015) [[paper](http://proceedings.mlr.press/v37/romera-paredes15.pdf)]
 - [ ] **Few-Shot learning Survey** (2019.4) [[paper](https://arxiv.org/abs/1904.05046)]
     - Wang et al. "Few-shot Learning: A Survey"
+
 
 ### Transfer learning
 - [ ] **Survey 2018** (2018) [[paper](https://arxiv.org/abs/1808.01974)]
