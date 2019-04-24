@@ -57,9 +57,14 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [x] **LSGAN** (2016.11) [[paper](https://arxiv.org/abs/1611.04076)]
     - Mao et al. "Least Squares Generative Adversarial Networks"
 - [x] **Pix2Pix** (2016.11) [[paper](https://arxiv.org/abs/1611.07004)]
+    - Isola et al. "Image-to-Image Translation with Conditional Adversarial Networks"
 - [x] **EBGAN** (2016.11) [[paper](https://arxiv.org/abs/1609.03126)]
+    - Zhao et al. "Energy-based Generative Adversarial Network"
 - [x] **WGAN** (2017.4) [[paper](https://arxiv.org/abs/1701.07875)]
+    - Arjovsky et al., "Wasserstein GAN"
 - [x] **WGAN_GP** (2017.5) [[paper](https://arxiv.org/abs/1704.00028)]
+    - Gulrajani et al., "Improved Training of Wasserstein GANs"
+    - Improves the training stability by applying **"gradient penalty (GP)"** to the loss function
 - [x] **BEGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.10717)]
     - Berthelot et al. "BEGAN: Boundary Equilibrium Generative Adversarial Networks"
     - Introduces a _diversity ratio_, or an _equilibrium constant_ that controls the variety - quality tradeoff, and also proposes a convergence measure using it.
@@ -78,8 +83,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     
 
 ### Advanced GANs
-
 - [ ] **DRAGAN** (2017.5) [[paper](https://arxiv.org/abs/1705.07215)]
+    - Kodali et al. "On Convergence and Stability of GANs"
 - [ ] **Are GANs Created Equal?** (2017.11) [[paper](https://arxiv.org/abs/1711.10337)]
     - Lucic et al. "Are GANs Created Equal? A Large-Scale Study"
 - [ ] **SGAN** (2017.12) [[paper](https://arxiv.org/abs/1712.02330)]
@@ -106,11 +111,6 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] Augustus Odena - _"Open Questions about GANs"_ (2019.4) [[distill.pub](https://distill.pub/2019/gan-open-problems/)]
     - Very nice article about current state of GAN research and discusses problems yet to be solved.
 
-
-### Adversarial Attacks
-- [ ] Szegedy et al. - Intreguing Properties of Neural Networks (2013.12) [[paper](https://arxiv.org/abs/1312.6199)]
-    - induces missclassification by applying small perturbations
-
 ### Autoencoders
 - [ ] Original autoencoder (1986) [[paper](https://web.stanford.edu/class/psych209a/ReadingsByDate/02_06/PDPVolIChapter8.pdf)]
     - Rumelhart, Hinton, and Williams, "Learning Internal Representations by Error Propagation"
@@ -126,7 +126,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - van den Oord et al. "Conditional image generation with PixelCNN decoders."
 - [ ] **WaveNet** (2016) [[paper](https://arxiv.org/abs/1609.03499)]
     - van den Oord et al. "WaveNet: A Generative Model for Raw Audio"
-- [ ] tacotron
+- [ ] tacotron?
 
 
 ### Layer Normalizations
@@ -258,6 +258,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 
 ### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
+- [ ] Szegedy et al. - Intreguing Properties of Neural Networks (2013.12) [[paper](https://arxiv.org/abs/1312.6199)]
+    - induces missclassification by applying small perturbations
 - [ ] Dauphin et al. **"Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"** (2014.6) [[paper](https://arxiv.org/abs/1406.2572)]
 - [ ] Choromanska et al. **"The Loss Surfaces of Multilayer Networks"** (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
     - argues that non-convexity in NNs are not a huge problem
