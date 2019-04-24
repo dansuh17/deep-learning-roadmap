@@ -255,13 +255,11 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] Audio-visual scene analysis https://arxiv.org/abs/1804.03641
 - [ ] a survey https://slideplayer.com/slide/13195863/
 - [ ] Supervising unsupervised learning https://arxiv.org/abs/1709.05262
-- [ ] Unsupervised Representation Learning by Predicting Image Rotations
- https://arxiv.org/abs/1803.07728
+- [ ] Unsupervised Representation Learning by Predicting Image Rotations https://arxiv.org/abs/1803.07728
 
 
 ### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
-- [ ] Szegedy et al. - Intreguing Properties of Neural Networks (2013.12) [[paper](https://arxiv.org/abs/1312.6199)]
-    - induces missclassification by applying small perturbations
+
 - [ ] Dauphin et al. **"Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"** (2014.6) [[paper](https://arxiv.org/abs/1406.2572)]
 - [ ] Choromanska et al. **"The Loss Surfaces of Multilayer Networks"** (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
     - argues that non-convexity in NNs are not a huge problem
@@ -289,6 +287,14 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Zhang et al. "Are all layers created equal?" 
 - [x] Lilian Weng - **"Are Deep Neural Networks Dramatically Overfitted?"** (2019.4) [[lil'log](https://lilianweng.github.io/lil-log/2019/03/14/are-deep-neural-networks-dramatically-overfitted.html)]
     - Excellent article about generalization and overfitting of deep neural networks
+    
+### Adversarial Attacks and Defense against attacks (RobustML)
+- [RobustML site](https://www.robust-ml.org/)
+- [ ] Szegedy et al. - Intreguing Properties of Neural Networks (2013.12) [[paper](https://arxiv.org/abs/1312.6199)]
+    - induces missclassification by applying small perturbations
+- [ ] Kurakin et al., **"Adversarial Machine Learning at Scale"** (2016.11) [[paper](https://arxiv.org/abs/1611.01236)]
+- [ ] Mandry et al., **"Towards Deep Learning Models Resistant to Adversarial Attacks"** (2017.6) [[paper](https://arxiv.org/abs/1706.06083)]
+- [ ] Carlini et al., **"Audio Adversarial Examples: Targeted Attacks on Speech-to-Text"** (2018.1) [[paper](https://arxiv.org/abs/1801.01944)]
 
 
 ### Neural architecture search (NAS) and AutoML
