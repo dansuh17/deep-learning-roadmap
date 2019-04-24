@@ -135,7 +135,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - Group Norm
 - [x] **Instance Normalization** (2016.7) [[paper](https://arxiv.org/abs/1607.08022)]
     - Ulyanov et al. "Instance Normalization: The Missing Ingredient for Fast Stylization"
-- Santurkar et al. **"How does Batch Normalization help Optimization?"** (2018.5) [[paper](https://arxiv.org/abs/1805.11604)]
+- [ ] Santurkar et al. **"How does Batch Normalization help Optimization?"** (2018.5) [[paper](https://arxiv.org/abs/1805.11604)]
 - [ ] **Switchable Normalization** (2019) [[paper](https://arxiv.org/abs/1806.10779)]
     - Luo et al. "Differentiable Learning-to-Normalize via Switchable Normalization"
 - [ ] **Weight Standardization** (2019.3) [[paper](https://arxiv.org/abs/1903.10520)]
@@ -290,8 +290,12 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     
 ### Adversarial Attacks and Defense against attacks (RobustML)
 - [RobustML site](https://www.robust-ml.org/)
-- [ ] Szegedy et al. - Intreguing Properties of Neural Networks (2013.12) [[paper](https://arxiv.org/abs/1312.6199)]
+- [x] **Adversarial Examples** Szegedy et al. - Intreguing Properties of Neural Networks (2013.12) [[paper](https://arxiv.org/abs/1312.6199)]
     - induces missclassification by applying small perturbations
+    - this paper was the first to coin the term "Adversarial Example"
+- [ ] **Fast Gradient Sign Attack (FGSM)** (2014.12)
+    - Goodfellow et al., "Explaining and Harnessing Adversarial Examples" (ICLR 2015) [[paper](https://arxiv.org/abs/1412.6572)]
+    - This paper presented the famous "panda example" (as also seen in [pytorch tutorial](https://pytorch.org/tutorials/beginner/fgsm_tutorial.html))
 - [ ] Kurakin et al., **"Adversarial Machine Learning at Scale"** (2016.11) [[paper](https://arxiv.org/abs/1611.01236)]
 - [ ] Mandry et al., **"Towards Deep Learning Models Resistant to Adversarial Attacks"** (2017.6) [[paper](https://arxiv.org/abs/1706.06083)]
 - [ ] Carlini et al., **"Audio Adversarial Examples: Targeted Attacks on Speech-to-Text"** (2018.1) [[paper](https://arxiv.org/abs/1801.01944)]
