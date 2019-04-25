@@ -157,10 +157,15 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - **Inverted Dropouts** [[notes on CS231n](http://cs231n.github.io/neural-networks-2/#reg)]
     - Multiplying the inverted _keep_prob_ value on training so that values during inference (or testing) is consistent.
 
-### Meta-Learning (Zero-Shot learning, Few-Shot learning)
+### Meta-Learning / Representation Learning (Zero-Shot learning, Few-Shot learning)
 - [ ] **Zero-Data Learning** (2008) [[paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-103.pdf)]
     - Larochelle et al., "Zero-data Learning of New Tasks"
+- [ ] Palatucci et al., **"Zero-shot Learning with Semantic Output Codes"** (NIPS 2009) [[paper](https://papers.nips.cc/paper/3650-zero-shot-learning-with-semantic-output-codes)]
+- [ ] Lampert et al., **"Attribute-Based Classification for Zero-Shot Visual Object Categorization"** (2013.7) [[paper](https://ieeexplore.ieee.org/abstract/document/6571196)]
+- [ ] Dinu et al., **"Improving zero-shot learning by mitigating the hubness problem"** (2014.12) [[paper](https://arxiv.org/abs/1412.6568)]
 - [ ] Romera-Paredes et al. - **"An embarrassingly simple approach to zero-shot learning"** (2015) [[paper](http://proceedings.mlr.press/v37/romera-paredes15.pdf)]
+- [ ] **Prototypical Networks** (2017.3) [[paper](https://arxiv.org/abs/1703.05175)]
+    - Snell et al., "Prototypical Networks for Few-shot Learning"
 - [ ] **Few-Shot learning Survey** (2019.4) [[paper](https://arxiv.org/abs/1904.05046)]
     - Wang et al. "Few-shot Learning: A Survey"
 
