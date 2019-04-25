@@ -158,6 +158,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Multiplying the inverted _keep_prob_ value on training so that values during inference (or testing) is consistent.
 
 ### Meta-Learning (Zero-Shot learning, Few-Shot learning)
+- [ ] **Zero-Data Learning** (2008) [[paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-103.pdf)]
+    - Larochelle et al., "Zero-data Learning of New Tasks"
 - [ ] Romera-Paredes et al. - **"An embarrassingly simple approach to zero-shot learning"** (2015) [[paper](http://proceedings.mlr.press/v37/romera-paredes15.pdf)]
 - [ ] **Few-Shot learning Survey** (2019.4) [[paper](https://arxiv.org/abs/1904.05046)]
     - Wang et al. "Few-shot Learning: A Survey"
@@ -259,7 +261,6 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 
 ### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
-
 - [ ] Dauphin et al. **"Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"** (2014.6) [[paper](https://arxiv.org/abs/1406.2572)]
 - [ ] Choromanska et al. **"The Loss Surfaces of Multilayer Networks"** (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
     - argues that non-convexity in NNs are not a huge problem
