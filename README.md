@@ -33,7 +33,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [x] **MobileNet** (2016) [[paper](https://arxiv.org/abs/1704.04861)]
     - Howard et al. "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"
     - A nice paper about reducing CNN parameter sizes while maintaining performance.
-- [ ] **DenseNet** (2016) [[paper](https://arxiv.org/abs/1608.06993)]
+- [x] **DenseNet** (2016) [[paper](https://arxiv.org/abs/1608.06993)]
     - Huang et al. "Densely Connected Convolutional Networks"
 
 
