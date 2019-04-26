@@ -156,6 +156,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Srivastava et al. "Dropout: A Simple Way to Prevent Neural Networks from Overfitting"
 - **Inverted Dropouts** [[notes on CS231n](http://cs231n.github.io/neural-networks-2/#reg)]
     - Multiplying the inverted _keep_prob_ value on training so that values during inference (or testing) is consistent.
+- [ ] Li et al., **"Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift"** (2018.1) [[paper](https://arxiv.org/abs/1801.05134)]
+
 
 ### Meta-Learning / Representation Learning (Zero-Shot learning, Few-Shot learning)
 - [ ] **Zero-Data Learning** (2008) [[paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-103.pdf)]
@@ -271,6 +273,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] Dauphin et al. **"Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"** (2014.6) [[paper](https://arxiv.org/abs/1406.2572)]
 - [ ] Choromanska et al. **"The Loss Surfaces of Multilayer Networks"** (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
     - argues that non-convexity in NNs are not a huge problem
+- [ ] **Knowledge Distillation** (2015.3) [[paper](https://arxiv.org/abs/1503.02531)]
+    - Hinton et al., "Distilling the Knowledge in a Neural Network"
 - [ ] **3-Part Learning Theory** by Mostafa Samir
     - [part 1: Introduction](https://mostafa-samir.github.io/ml-theory-pt1/)
     - [part 2: Generalization Bounds](https://mostafa-samir.github.io/ml-theory-pt2/)
@@ -286,6 +290,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Smith et al. "Don't Decay the Learning Rate, Increase the Batch Size"
 - [ ] Hestness et al. **"Deep Learning Scaling is Predictable, Empirically"** (2017.12) [[paper](https://arxiv.org/abs/1712.00409)]
 - [ ] **Visualizing loss landscape of neural nets** (2018) [[paper](https://arxiv.org/abs/1712.09913v3)]
+- [ ] Olson et al., **"Modern Neural Networks Generalize on Small Data Sets"** (NeurIPS 2018) [[paper](https://papers.nips.cc/paper/7620-modern-neural-networks-generalize-on-small-data-sets)]
 - [ ] **Intrinsic Dimension** (2018.4) [[paper](https://arxiv.org/abs/1804.08838)]
     - Li et al., "Measuring the Intrinsic Dimension of Objective Landscapes"
 - [ ] Geirhos et al. "**ImageNet-trained CNNs are biased towards texture;** increasing shape bias improves accuracy and robustness" (2018.11) [[paper](https://arxiv.org/abs/1811.12231)]
@@ -341,6 +346,7 @@ https://www.reddit.com/r/MachineLearning/comments/8vmuet/d_what_deep_learning_pa
 
 
 ### Theory
+- [Andrej Karpathy - Yes You Should Understand Backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b)
 - [Theoretical principles for Deep Learning](http://mitliagkas.github.io/ift6085-dl-theory-class-2019/?fbclid=IwAR02mfw0hMM5UFaBuxBgDi5wfT6TaIt35wktZGpCmmhu0_3GMA6HqFN1GFs)
 - [Bubeck - Convex Optimization - Algorithms and Complexity](https://arxiv.org/pdf/1405.4980.pdf)
 - [Stanford STATS 385 - Theories of Deep Learning](https://stats385.github.io/)
