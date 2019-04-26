@@ -328,6 +328,10 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] **RandWire** (2019) [[paper](https://arxiv.org/abs/1904.01569)]
     - Xie et al. "Exploring Randomly Wired Neural Networks for Image Recognition" [Facebook AI Research]
     
+    
+### Practical Techniques
+- [x] Andrej Karpathy - **"A recipe for training neural networks"** (2019) [[Andrej Karpathy Blog Post](http://karpathy.github.io/2019/04/25/recipe/)]
+    
 
 ## DL roadmap reference
 - https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
