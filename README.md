@@ -263,6 +263,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] a survey https://slideplayer.com/slide/13195863/
 - [ ] Supervising unsupervised learning https://arxiv.org/abs/1709.05262
 - [ ] Unsupervised Representation Learning by Predicting Image Rotations https://arxiv.org/abs/1803.07728
+- [ ] Mahjourian et al., **"Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints"** (2018.2) [[paper](https://arxiv.org/abs/1802.05522)]
+- [ ] Gordon et al., **"Depth from Videos in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras"** (2019.4) [[paper](https://arxiv.org/abs/1904.04998)]
 
 
 ### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
@@ -279,6 +281,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Zhang et al. "Understanding deep learning requires rethinking generalization"
 - [ ] **Information Bottleneck** (2017) [[paper](https://arxiv.org/abs/1703.00810)] [[original paper on information bottleneck (2000)](https://arxiv.org/abs/physics/0004057)] [[youtube-talk](https://youtu.be/bLqJHjXihK8)] [[article in quantamagazine](https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/)]
     - Shwartz-Ziv and Tishby, "Opening the Black Box of Deep Neural Networks via Information"
+- [ ] Sun et al., **"Revisiting Unreasonable Effectiveness of Data in Deep Learning Era"** (2017.7) [[paper](https://arxiv.org/abs/1707.02968)]
 - [ ] **Don't Decay the Learning Rate, Increase the Batch Size** (2017.11) [[paper](https://arxiv.org/abs/1711.00489)]
     - Smith et al. "Don't Decay the Learning Rate, Increase the Batch Size"
 - [ ] Hestness et al. **"Deep Learning Scaling is Predictable, Empirically"** (2017.12) [[paper](https://arxiv.org/abs/1712.00409)]
