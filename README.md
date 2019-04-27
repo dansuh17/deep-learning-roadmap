@@ -160,7 +160,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 
 ### Meta-Learning / Representation Learning (Zero-Shot learning, Few-Shot learning)
-- [ ] **Zero-Data Learning** (2008) [[paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-103.pdf)]
+- [x] **Zero-Data Learning** (2008) [[paper](https://www.aaai.org/Papers/AAAI/2008/AAAI08-103.pdf)]
     - Larochelle et al., "Zero-data Learning of New Tasks"
 - [ ] Palatucci et al., **"Zero-shot Learning with Semantic Output Codes"** (NIPS 2009) [[paper](https://papers.nips.cc/paper/3650-zero-shot-learning-with-semantic-output-codes)]
 - [ ] Lampert et al., **"Attribute-Based Classification for Zero-Shot Visual Object Categorization"** (2013.7) [[paper](https://ieeexplore.ieee.org/abstract/document/6571196)]
