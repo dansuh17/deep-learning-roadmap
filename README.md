@@ -272,6 +272,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 
 
 ### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
+- [ ] **MDL (Minimum Description Length)**
+    - Peter Grunwald - "A tutorial introduction to the minimum description length principle" (2004) [[paper](https://arxiv.org/abs/math/0406077)]
 - [ ] Dauphin et al. **"Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"** (2014.6) [[paper](https://arxiv.org/abs/1406.2572)]
 - [ ] Choromanska et al. **"The Loss Surfaces of Multilayer Networks"** (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
     - argues that non-convexity in NNs are not a huge problem
@@ -287,6 +289,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Zhang et al. "Understanding deep learning requires rethinking generalization"
 - [ ] **Information Bottleneck** (2017) [[paper](https://arxiv.org/abs/1703.00810)] [[original paper on information bottleneck (2000)](https://arxiv.org/abs/physics/0004057)] [[youtube-talk](https://youtu.be/bLqJHjXihK8)] [[article in quantamagazine](https://www.quantamagazine.org/new-theory-cracks-open-the-black-box-of-deep-learning-20170921/)]
     - Shwartz-Ziv and Tishby, "Opening the Black Box of Deep Neural Networks via Information"
+- [ ] Neyshabur et al, "Exploring Generalization in Deep Learning" (2017.7) [[paper](https://arxiv.org/abs/1706.08947)]
 - [ ] Sun et al., **"Revisiting Unreasonable Effectiveness of Data in Deep Learning Era"** (2017.7) [[paper](https://arxiv.org/abs/1707.02968)]
 - [ ] **Don't Decay the Learning Rate, Increase the Batch Size** (2017.11) [[paper](https://arxiv.org/abs/1711.00489)]
     - Smith et al. "Don't Decay the Learning Rate, Increase the Batch Size"
@@ -348,9 +351,9 @@ https://www.reddit.com/r/MachineLearning/comments/8vmuet/d_what_deep_learning_pa
 
 
 ### Theory
+- [The MML(Mathematics for Machine Learning) book](https://mml-book.github.io/)
 - [Andrej Karpathy - Yes You Should Understand Backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b)
 - [Theoretical principles for Deep Learning](http://mitliagkas.github.io/ift6085-dl-theory-class-2019/?fbclid=IwAR02mfw0hMM5UFaBuxBgDi5wfT6TaIt35wktZGpCmmhu0_3GMA6HqFN1GFs)
-- [Bubeck - Convex Optimization - Algorithms and Complexity](https://arxiv.org/pdf/1405.4980.pdf)
 - [Stanford STATS 385 - Theories of Deep Learning](https://stats385.github.io/)
     - [Lecture Videos](https://www.researchgate.net/project/Theories-of-Deep-Learning?fbclid=IwAR0dwnuswA1jMwIOuydb_a83AM22FfuD6PpAWPiIW-76OCemcRBrVVLKLoM)
 - CSC 231 notes : http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/
