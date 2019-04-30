@@ -274,6 +274,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 ### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
 - [ ] **MDL (Minimum Description Length)**
     - Peter Grunwald - "A tutorial introduction to the minimum description length principle" (2004) [[paper](https://arxiv.org/abs/math/0406077)]
+- [ ] Grunwald et al., - **"Shannon Information and Kolmogorov Complexity"** (2010) [[paper](https://arxiv.org/abs/cs/0410002)]
 - [ ] Dauphin et al. **"Identifying and attacking the saddle point problem in high-dimensional non-convex optimization"** (2014.6) [[paper](https://arxiv.org/abs/1406.2572)]
 - [ ] Choromanska et al. **"The Loss Surfaces of Multilayer Networks"** (2014.11) [[paper](https://arxiv.org/abs/1412.0233)]
     - argues that non-convexity in NNs are not a huge problem
@@ -291,6 +292,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Shwartz-Ziv and Tishby, "Opening the Black Box of Deep Neural Networks via Information"
 - [ ] Neyshabur et al, "Exploring Generalization in Deep Learning" (2017.7) [[paper](https://arxiv.org/abs/1706.08947)]
 - [ ] Sun et al., **"Revisiting Unreasonable Effectiveness of Data in Deep Learning Era"** (2017.7) [[paper](https://arxiv.org/abs/1707.02968)]
+- [ ] **Super-Convergence** (2017.8) [[paper](https://arxiv.org/abs/1708.07120)]
+    - Smith et al. - "Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates"
 - [ ] **Don't Decay the Learning Rate, Increase the Batch Size** (2017.11) [[paper](https://arxiv.org/abs/1711.00489)]
     - Smith et al. "Don't Decay the Learning Rate, Increase the Batch Size"
 - [ ] Hestness et al. **"Deep Learning Scaling is Predictable, Empirically"** (2017.12) [[paper](https://arxiv.org/abs/1712.00409)]
