@@ -68,8 +68,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [x] **BEGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.10717)]
     - Berthelot et al. "BEGAN: Boundary Equilibrium Generative Adversarial Networks"
     - Introduces a _diversity ratio_, or an _equilibrium constant_ that controls the variety - quality tradeoff, and also proposes a convergence measure using it.
-- [ ] **CycleGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.10593)]
-    - [ ] **DiscoGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.05192)]
+- [x] **CycleGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.10593)]
+    - [x] **DiscoGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.05192)]
     - DiscoGAN and CycleGAN proposes the EXACT SAME learning techniques for style transfer task using GAN, developed independently at the same time.
 - [ ] **Frechet Inception Distance (FID)** (2017.6) [[paper](https://arxiv.org/abs/1706.08500)]
     - Heusel et al. "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium"
