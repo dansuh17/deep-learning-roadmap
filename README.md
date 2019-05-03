@@ -71,8 +71,9 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [x] **CycleGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.10593)]
     - [x] **DiscoGAN** (2017.5) [[paper](https://arxiv.org/abs/1703.05192)]
     - DiscoGAN and CycleGAN proposes the EXACT SAME learning techniques for style transfer task using GAN, developed independently at the same time.
-- [ ] **Frechet Inception Distance (FID)** (2017.6) [[paper](https://arxiv.org/abs/1706.08500)]
+- [x] **Frechet Inception Distance (FID)** (2017.6) [[paper](https://arxiv.org/abs/1706.08500)]
     - Heusel et al. "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium"
+    - The paper's main contribution is a technique called Two Time-Scale Update Rule (TTSU), but it is mostly known for the distance metric called _Frechet Inception Distance_ that measures the distance between two distributions of activation values.
 - [ ] **ProGAN** (2017.10) [[paper](https://arxiv.org/abs/1710.10196)]
     - Karras et al. "Progressive Growing of GANs for Improved Quality, Stability, and Variation"
 - [ ] **PacGAN** (2017.12) [[paper](https://arxiv.org/abs/1712.04086)]
