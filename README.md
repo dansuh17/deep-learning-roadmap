@@ -301,6 +301,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] Hestness et al. **"Deep Learning Scaling is Predictable, Empirically"** (2017.12) [[paper](https://arxiv.org/abs/1712.00409)]
 - [ ] **Visualizing loss landscape of neural nets** (2018) [[paper](https://arxiv.org/abs/1712.09913v3)]
 - [ ] Olson et al., **"Modern Neural Networks Generalize on Small Data Sets"** (NeurIPS 2018) [[paper](https://papers.nips.cc/paper/7620-modern-neural-networks-generalize-on-small-data-sets)]
+- [ ] **Lottery Ticket Hypothesis** (2018.3) [[paper](https://arxiv.org/abs/1803.03635)]
+    - Frankle et al., "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks"
 - [ ] **Intrinsic Dimension** (2018.4) [[paper](https://arxiv.org/abs/1804.08838)]
     - Li et al., "Measuring the Intrinsic Dimension of Objective Landscapes"
 - [ ] Geirhos et al. "**ImageNet-trained CNNs are biased towards texture;** increasing shape bias improves accuracy and robustness" (2018.11) [[paper](https://arxiv.org/abs/1811.12231)]
