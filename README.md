@@ -172,6 +172,8 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Snell et al., "Prototypical Networks for Few-shot Learning"
 - [ ] **Zero-shot learning - the Good, the Bad and the Ugly"** (2017.3) [[paper](https://arxiv.org/abs/1703.04394)]
     - Xian et al., "Zero-Shot Learning - The Good, the Bad and the Ugly"
+- [ ] **In defence of the Triplet Loss** (2017.3) [[paper](https://arxiv.org/abs/1703.07737)]
+    - Hermans et al., "In Defense of the Triplet Loss for Person Re-Identification"
 - [ ] **Triplet Loss and Online Triplet Mining in Tensorflow** (2018.3) [[Oliver Moindrot Blog](https://omoindrot.github.io/triplet-loss)]
 - [ ] **Few-Shot learning Survey** (2019.4) [[paper](https://arxiv.org/abs/1904.05046)]
     - Wang et al. "Few-shot Learning: A Survey"
