@@ -342,12 +342,13 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
     - Liu et al. "Progressive Neural Architecture Search"
 - [ ] **ENAS** (2018.2) [[paper](https://arxiv.org/abs/1802.03268)]
     - Pham et al. "Efficient Neural Architecture Search via Parameter Sharing"
-- [ ] **NAS Survey 2018** (2018.4) [[paper](https://arxiv.org/abs/1808.05377)]
 - [ ] **DARTS** (2018.6) [[paper](https://arxiv.org/abs/1806.09055)]
     - Liu et al. "DARTS: Differentiable Architecture Search"
     - Uses a continuous relaxation over the discrete neural architecture space.
 - [ ] **RandWire** (2019) [[paper](https://arxiv.org/abs/1904.01569)]
     - Xie et al. "Exploring Randomly Wired Neural Networks for Image Recognition" [Facebook AI Research]
+- [ ] **A Survey on Neural Architecture Search** (2019) [[paper](https://arxiv.org/abs/1905.01392)]
+    - Witsuba et al., "A Survey on Neural Architecture Search"
     
     
 ### Practical Techniques
