@@ -246,7 +246,7 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - IndRNN : https://arxiv.org/abs/1803.04831
 - DilatedRNNs : https://arxiv.org/abs/1710.02224
 
-### Compression
+### Model Compression
 - **MobileNet** (2016) (see above: [Basic CNN Architectures](https://github.com/deNsuh/deep-learning-roadmap/blob/master/README.md#basic-cnn-architectures))
 - [ ] **ShuffleNet** (2017)
     - Zhang et al. "ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices"
@@ -274,6 +274,11 @@ My own deep learning mastery roadmap, inspired by [Deep Learning Papers Reading 
 - [ ] Unsupervised Representation Learning by Predicting Image Rotations https://arxiv.org/abs/1803.07728
 - [ ] Mahjourian et al., **"Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints"** (2018.2) [[paper](https://arxiv.org/abs/1802.05522)]
 - [ ] Gordon et al., **"Depth from Videos in the Wild: Unsupervised Monocular Depth Learning from Unknown Cameras"** (2019.4) [[paper](https://arxiv.org/abs/1904.04998)]
+
+
+### Data Augmentation
+- [ ] **Shake Shake Regularization** (2017.5) [[paper](https://arxiv.org/abs/1705.07485)]
+    - Gastaldi, Xavier - "Shake-Shake Regularization"
 
 
 ### Interpretation and Theory on Generalization, Overfitting, and Learning Capacity
